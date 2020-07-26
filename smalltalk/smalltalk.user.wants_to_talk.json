@@ -1,0 +1,188 @@
+{
+  "id": "622b1747-d1c1-4160-9edc-f0bbd8990e7f",
+  "name": "smalltalk.user.wants_to_talk",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "smalltalk.user.wants_to_talk",
+      "affectedContexts": [],
+      "parameters": [],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "I'm here to chat anytime you like.",
+            "Good conversation really makes my day.",
+            "I'm always here to lend an ear.",
+            "Talking is what I do best."
+          ]
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "let's discuss something",
+          "userDefined": false
+        }
+      ],
+      "count": 1,
+      "id": "5624b158-e845-4cfd-940f-1411a5ebdb02",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "let us talk",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "2da6eb8b-dd03-450d-8d91-f8738c5a8033",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "can we chat",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "23cd04c1-e646-4a00-bedb-8f7f7fd71fc8",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "I just want to talk",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "c371df30-0c96-4f3f-82d2-0e359a4e5bd4",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "let's talk",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "61005aec-850f-403b-b08f-3282a0db2b50",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "I want to speak with you",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "dd83fa75-6aef-4345-b4a7-1b86fc1d81a2",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "I want to talk to you",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "f1ce1a2c-f529-4c6c-8cdc-46d2b919f808",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "I need to talk to you",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "37ca272b-da48-46d8-88fc-8538c1015a1b",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "can I speak",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "975d656c-7b12-4000-be0c-8ae1ab51ef6b",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "can I start speaking",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "4f4322d9-cdf1-4747-80e1-5ec220c207ee",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "can we talk",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "863e9a00-12f7-449b-ab43-78d45a43b39f",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "let's have a discussion",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "e2db6f23-47a7-4ab0-b761-fa078f7bb288",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

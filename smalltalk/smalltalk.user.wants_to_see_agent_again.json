@@ -1,0 +1,244 @@
+{
+  "id": "7cbb63e5-a8af-4776-bbf2-3c333215bcbf",
+  "name": "smalltalk.user.wants_to_see_agent_again",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "smalltalk.user.wants_to_see_agent_again",
+      "affectedContexts": [],
+      "parameters": [],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "Absolutely! I'll be counting on it.",
+            "Anytime. This has been lots of fun so far.",
+            "Sure. I enjoy talking to you. I hope to see you again soon.",
+            "I certainly hope so. I'm always right here whenever you need me."
+          ]
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "I hope to see you again",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "47ee03ea-b473-4164-bc50-030c014155fc",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "that'",
+          "userDefined": false
+        },
+        {
+          "text": "d",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " ",
+          "userDefined": false
+        },
+        {
+          "text": "be",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " ",
+          "userDefined": false
+        },
+        {
+          "text": "great",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " ",
+          "userDefined": false
+        },
+        {
+          "text": "to",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " see you again",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "6f6ee009-edd8-474c-9425-4d5e2e35a961",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "can I see you again",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "57bbbb6f-3e31-4906-a149-57204129754a",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "would ",
+          "userDefined": false
+        },
+        {
+          "text": "be",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " ",
+          "userDefined": false
+        },
+        {
+          "text": "nice",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " ",
+          "userDefined": false
+        },
+        {
+          "text": "to",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " see you again",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "8ba28fe3-06ec-461d-9de2-c984b31031df",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "I'd like to see you again",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "9ed1ad4a-a88e-4f66-b346-e5bb7cfa4e0e",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "I'll miss you",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "2426bf48-09bf-4e2b-b9f2-2ca21b6b1217",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "I",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": "'",
+          "userDefined": false
+        },
+        {
+          "text": "d",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " ",
+          "userDefined": false
+        },
+        {
+          "text": "be",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " ",
+          "userDefined": false
+        },
+        {
+          "text": "happy",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " ",
+          "userDefined": false
+        },
+        {
+          "text": "to",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " see you again",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "e7739957-4d6f-4041-9c52-0ee2b11ad041",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

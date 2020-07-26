@@ -1,0 +1,2614 @@
+{
+  "id": "43cfac7f-fd20-401b-aa74-e1a920d77066",
+  "name": "music.download",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "music.download",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "noInputPromptMessages": [],
+          "noMatchPromptMessages": [],
+          "promptMessages": [],
+          "defaultValue": "",
+          "name": "song",
+          "dataType": "@song",
+          "isList": false,
+          "required": false,
+          "prompts": [],
+          "value": "$song",
+          "outputDialogContexts": []
+        },
+        {
+          "noInputPromptMessages": [],
+          "noMatchPromptMessages": [],
+          "promptMessages": [],
+          "defaultValue": "",
+          "name": "artist",
+          "dataType": "@sys.music-artist",
+          "isList": true,
+          "required": false,
+          "prompts": [],
+          "value": "$artist",
+          "outputDialogContexts": []
+        },
+        {
+          "noInputPromptMessages": [],
+          "noMatchPromptMessages": [],
+          "promptMessages": [],
+          "defaultValue": "",
+          "name": "genre",
+          "dataType": "@sys.music-genre",
+          "isList": false,
+          "required": false,
+          "prompts": [],
+          "value": "$genre",
+          "outputDialogContexts": []
+        },
+        {
+          "noInputPromptMessages": [],
+          "noMatchPromptMessages": [],
+          "promptMessages": [],
+          "defaultValue": "",
+          "name": "service",
+          "dataType": "@music-service",
+          "isList": false,
+          "required": false,
+          "prompts": [],
+          "value": "$service",
+          "outputDialogContexts": []
+        },
+        {
+          "noInputPromptMessages": [],
+          "noMatchPromptMessages": [],
+          "promptMessages": [],
+          "defaultValue": "",
+          "name": "album",
+          "dataType": "@music-album",
+          "isList": false,
+          "required": false,
+          "prompts": [],
+          "value": "$album",
+          "outputDialogContexts": []
+        },
+        {
+          "noInputPromptMessages": [],
+          "noMatchPromptMessages": [],
+          "promptMessages": [],
+          "defaultValue": "",
+          "name": "sort",
+          "dataType": "@music-sort",
+          "isList": false,
+          "required": false,
+          "prompts": [],
+          "value": "$sort",
+          "outputDialogContexts": []
+        },
+        {
+          "noInputPromptMessages": [],
+          "noMatchPromptMessages": [],
+          "promptMessages": [],
+          "defaultValue": "",
+          "name": "start-year",
+          "dataType": "@sys.number",
+          "isList": false,
+          "required": false,
+          "prompts": [],
+          "value": "$start-year",
+          "outputDialogContexts": []
+        },
+        {
+          "noInputPromptMessages": [],
+          "noMatchPromptMessages": [],
+          "promptMessages": [],
+          "defaultValue": "",
+          "name": "end-year",
+          "dataType": "@sys.number",
+          "isList": false,
+          "required": false,
+          "prompts": [],
+          "value": "$end-year",
+          "outputDialogContexts": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "message",
+          "condition": "",
+          "speech": []
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "I'd like to download the album ",
+          "userDefined": false
+        },
+        {
+          "text": "Empty Sky",
+          "userDefined": true,
+          "alias": "song",
+          "meta": "@song"
+        },
+        {
+          "text": " by ",
+          "userDefined": false
+        },
+        {
+          "text": "Elton John",
+          "userDefined": true,
+          "alias": "artist",
+          "meta": "@sys.music-artist"
+        }
+      ],
+      "count": 5,
+      "id": "588b2b27-7910-4228-a255-324caadc825d",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "download ",
+          "userDefined": false
+        },
+        {
+          "text": "Blackbird",
+          "userDefined": false,
+          "alias": "song",
+          "meta": "@song"
+        },
+        {
+          "text": " ",
+          "userDefined": false
+        },
+        {
+          "text": "from",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " SD ",
+          "userDefined": false
+        },
+        {
+          "text": "card",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        }
+      ],
+      "count": 0,
+      "id": "f889985b-59e0-4605-ad03-29a64b3cdee9",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "download",
+          "userDefined": true,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " album by ",
+          "userDefined": false
+        },
+        {
+          "text": "Rihanna",
+          "userDefined": true,
+          "alias": "artist",
+          "meta": "@sys.music-artist"
+        },
+        {
+          "text": " ",
+          "userDefined": false
+        },
+        {
+          "text": "year",
+          "userDefined": true,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " ",
+          "userDefined": false
+        },
+        {
+          "text": "2016",
+          "userDefined": true,
+          "alias": "start-year",
+          "meta": "@sys.number"
+        }
+      ],
+      "count": 0,
+      "id": "b8b7e30a-269a-42bd-8d72-c45084969615",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "download a song from ",
+          "userDefined": false
+        },
+        {
+          "text": "Prince Royce",
+          "userDefined": false,
+          "alias": "artist",
+          "meta": "@sys.music-artist"
+        }
+      ],
+      "count": 0,
+      "id": "81b1622d-df68-4d0a-a41c-9763788e44a1",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "download a song by ",
+          "userDefined": false
+        },
+        {
+          "text": "George Michael",
+          "userDefined": false,
+          "alias": "artist",
+          "meta": "@sys.music-artist"
+        }
+      ],
+      "count": 0,
+      "id": "3e600594-607c-41fd-b1b3-90f1dbcee956",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "download some ",
+          "userDefined": false
+        },
+        {
+          "text": "rock n roll",
+          "userDefined": false,
+          "alias": "genre",
+          "meta": "@sys.music-genre"
+        },
+        {
+          "text": " ",
+          "userDefined": false
+        },
+        {
+          "text": "music",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        }
+      ],
+      "count": 0,
+      "id": "76204533-ce19-4e02-8773-d6d8cd0e86e1",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "download ",
+          "userDefined": false
+        },
+        {
+          "text": "The Logical Song",
+          "userDefined": false,
+          "alias": "song",
+          "meta": "@song"
+        }
+      ],
+      "count": 0,
+      "id": "e18ddd2c-164a-43df-97cc-0f8bbf719c26",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "download me the song ",
+          "userDefined": false
+        },
+        {
+          "text": "Rap Call",
+          "userDefined": false,
+          "alias": "song",
+          "meta": "@song"
+        },
+        {
+          "text": " by ",
+          "userDefined": false
+        },
+        {
+          "text": "Eminem",
+          "userDefined": false,
+          "alias": "artist",
+          "meta": "@sys.music-artist"
+        }
+      ],
+      "count": 0,
+      "id": "cdf29413-d86b-4c84-a28c-824777c3fae0",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "download ",
+          "userDefined": false
+        },
+        {
+          "text": "The Beatles",
+          "userDefined": false,
+          "alias": "artist",
+          "meta": "@sys.music-artist"
+        }
+      ],
+      "count": 0,
+      "id": "75529e8a-1d25-4385-82e1-ea4a51ef68cc",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "download",
+          "userDefined": true,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " the ",
+          "userDefined": false
+        },
+        {
+          "text": "newest",
+          "userDefined": true,
+          "alias": "sort",
+          "meta": "@music-sort"
+        },
+        {
+          "text": " song by ",
+          "userDefined": false
+        },
+        {
+          "text": "Eminem",
+          "userDefined": true,
+          "alias": "artist",
+          "meta": "@sys.music-artist"
+        }
+      ],
+      "count": 0,
+      "id": "4f473b3a-5c50-4ec4-b8e6-a643150baf65",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "download a ",
+          "userDefined": false
+        },
+        {
+          "text": "country",
+          "userDefined": false,
+          "alias": "genre",
+          "meta": "@sys.music-genre"
+        },
+        {
+          "text": " song",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "e984c7d4-578d-48c4-834b-7e46124b8741",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "download the songs",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "8b775634-f344-435b-be04-6922be594506",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "now download ",
+          "userDefined": false
+        },
+        {
+          "text": "Cocktail",
+          "userDefined": false,
+          "alias": "song",
+          "meta": "@song"
+        },
+        {
+          "text": " song",
+          "userDefined": false
+        }
+      ],
+      "count": 5,
+      "id": "d25c5597-29cd-492c-a2ad-02d1225be87e",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "download the song ",
+          "userDefined": false
+        },
+        {
+          "text": "Timber",
+          "userDefined": false,
+          "alias": "song",
+          "meta": "@song"
+        }
+      ],
+      "count": 0,
+      "id": "8847008b-e5c3-4f1c-b82d-e3f82891957b",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "download song ",
+          "userDefined": false
+        },
+        {
+          "text": "Bottal Khol",
+          "userDefined": false,
+          "alias": "song",
+          "meta": "@song"
+        }
+      ],
+      "count": 0,
+      "id": "a3d9263d-7994-41f5-9153-004ba1099e12",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "download me a song from ",
+          "userDefined": false
+        },
+        {
+          "text": "the Beatles",
+          "userDefined": false,
+          "alias": "artist",
+          "meta": "@sys.music-artist"
+        }
+      ],
+      "count": 0,
+      "id": "c72fd985-539f-4cab-9d5b-71212bf62a83",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "download some ",
+          "userDefined": false
+        },
+        {
+          "text": "rock",
+          "userDefined": true,
+          "alias": "genre",
+          "meta": "@sys.music-genre"
+        },
+        {
+          "text": " music from ",
+          "userDefined": false
+        },
+        {
+          "text": "Spotify",
+          "userDefined": true,
+          "alias": "service",
+          "meta": "@music-service"
+        }
+      ],
+      "count": 0,
+      "id": "8f0c92c2-dcd6-489c-b64f-e40505b13a10",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "start downloading the song",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "1e9913f4-ec7d-4b87-ab1e-f95e000df82f",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "download me a song",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "55da20a7-2366-4d7d-bd7b-df0f0286fba6",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "download the song ",
+          "userDefined": false
+        },
+        {
+          "text": "Whip My Hair",
+          "userDefined": false,
+          "alias": "song",
+          "meta": "@song"
+        },
+        {
+          "text": " by ",
+          "userDefined": false
+        },
+        {
+          "text": "Willow Smith",
+          "userDefined": false,
+          "alias": "artist",
+          "meta": "@sys.music-artist"
+        }
+      ],
+      "count": 0,
+      "id": "fab9cba8-c55a-4ff9-ac40-b4e320f15f89",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "download ",
+          "userDefined": false
+        },
+        {
+          "text": "Lean On",
+          "userDefined": true,
+          "alias": "song",
+          "meta": "@song"
+        },
+        {
+          "text": " song",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "e11c008a-f970-4d71-b38b-b7e64201bee1",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "download ",
+          "userDefined": false
+        },
+        {
+          "text": "One Direction",
+          "userDefined": true,
+          "alias": "artist",
+          "meta": "@sys.music-artist"
+        },
+        {
+          "text": " songs",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "50bd82c3-97f6-4c24-86b6-d1b42ffae3c9",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "download a song",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "e8b19c0e-c7d3-4abf-9fab-780a27bd44f5",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "download the ",
+          "userDefined": false
+        },
+        {
+          "text": "music",
+          "userDefined": true,
+          "meta": "@sys.ignore",
+          "alias": null
+        }
+      ],
+      "count": 0,
+      "id": "8cca4a44-e935-49f8-81e7-e7c7b627e503",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "download the song ",
+          "userDefined": false
+        },
+        {
+          "text": "Chinta Ta Ta Chita Chita",
+          "userDefined": false,
+          "alias": "song",
+          "meta": "@song"
+        },
+        {
+          "text": " to my download list",
+          "userDefined": false
+        }
+      ],
+      "count": 3,
+      "id": "379a0b70-466d-463e-b7e4-abc4fc1f9594",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "download ",
+          "userDefined": false
+        },
+        {
+          "text": "ringtone",
+          "userDefined": true,
+          "meta": "@sys.ignore",
+          "alias": null
+        }
+      ],
+      "count": 0,
+      "id": "e5544d3c-c9b9-4393-b1dd-59e5404667f1",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "download song ",
+          "userDefined": false
+        },
+        {
+          "text": "Never Gone",
+          "userDefined": false,
+          "alias": "song",
+          "meta": "@song"
+        }
+      ],
+      "count": 0,
+      "id": "ac1d20db-f8dc-48ca-ae10-9da255e71845",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "download ",
+          "userDefined": false
+        },
+        {
+          "text": "Kenny G",
+          "userDefined": false,
+          "alias": "artist",
+          "meta": "@sys.music-artist"
+        },
+        {
+          "text": " song",
+          "userDefined": false
+        }
+      ],
+      "count": 7,
+      "id": "44d12441-e958-4ddb-821c-b524739fe162",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "download the song from my ",
+          "userDefined": false
+        },
+        {
+          "text": "music",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " downloader",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "cc5050d9-9e1c-4c4b-8072-37135026b9a8",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "download the ",
+          "userDefined": false
+        },
+        {
+          "text": "Mean Kitty",
+          "userDefined": false,
+          "alias": "song",
+          "meta": "@song"
+        },
+        {
+          "text": " song",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "ff08b5df-175b-4c33-82a7-9d249502fae8",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "download the song ",
+          "userDefined": false
+        },
+        {
+          "text": "Brown Rang",
+          "userDefined": false,
+          "alias": "song",
+          "meta": "@song"
+        }
+      ],
+      "count": 0,
+      "id": "fcd936e7-b368-493d-a1a6-5c48fa60979d",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "download the song ",
+          "userDefined": false
+        },
+        {
+          "text": "Turn Down for a While",
+          "userDefined": false,
+          "alias": "song",
+          "meta": "@song"
+        }
+      ],
+      "count": 0,
+      "id": "73c8746a-ee5c-4540-8e1b-2cdbecce67da",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "download a ",
+          "userDefined": false
+        },
+        {
+          "text": "pop",
+          "userDefined": false,
+          "alias": "genre",
+          "meta": "@sys.music-genre"
+        },
+        {
+          "text": " song",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "438fb611-f057-4c92-83a5-1f354899f17e",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "download ",
+          "userDefined": false
+        },
+        {
+          "text": "Skrillex",
+          "userDefined": false,
+          "alias": "artist",
+          "meta": "@sys.music-artist"
+        }
+      ],
+      "count": 0,
+      "id": "c0b51c9c-8229-4d0c-9f8f-5ec0fb0362a4",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "download song ",
+          "userDefined": false
+        },
+        {
+          "text": "Jesus Rise",
+          "userDefined": false,
+          "alias": "song",
+          "meta": "@song"
+        },
+        {
+          "text": " ",
+          "userDefined": false
+        },
+        {
+          "text": "McClain",
+          "userDefined": false,
+          "alias": "artist",
+          "meta": "@sys.music-artist"
+        }
+      ],
+      "count": 0,
+      "id": "03d4d32b-f072-454b-88a4-b2b9d4092f73",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "download ",
+          "userDefined": false
+        },
+        {
+          "text": "Yesterday",
+          "userDefined": true,
+          "alias": "song",
+          "meta": "@song"
+        },
+        {
+          "text": " song by ",
+          "userDefined": false
+        },
+        {
+          "text": "The Beatles",
+          "userDefined": true,
+          "alias": "artist",
+          "meta": "@sys.music-artist"
+        }
+      ],
+      "count": 0,
+      "id": "11704411-60ab-4127-9c88-d904d587d7d8",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "download song ",
+          "userDefined": false
+        },
+        {
+          "text": "The Man",
+          "userDefined": false,
+          "alias": "song",
+          "meta": "@song"
+        }
+      ],
+      "count": 0,
+      "id": "23e16d5b-788c-41dd-808b-827f00eca025",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "download",
+          "userDefined": true,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " ",
+          "userDefined": false
+        },
+        {
+          "text": "Bowie",
+          "userDefined": true,
+          "alias": "artist",
+          "meta": "@sys.music-artist"
+        },
+        {
+          "text": " before ",
+          "userDefined": false
+        },
+        {
+          "text": "1970",
+          "userDefined": true,
+          "alias": "end-year",
+          "meta": "@sys.number"
+        }
+      ],
+      "count": 0,
+      "id": "6c3ca070-21ae-4fb6-a626-19f757a4280f",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "you",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " should download ",
+          "userDefined": false
+        },
+        {
+          "text": "music",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        }
+      ],
+      "count": 0,
+      "id": "8aab0091-175c-4d25-bb3b-52448cc33b6b",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "download some ",
+          "userDefined": false
+        },
+        {
+          "text": "music",
+          "userDefined": true,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " for me",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "6e42064f-e84f-4d58-b1dc-50e84c45e293",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "download song ",
+          "userDefined": false
+        },
+        {
+          "text": "Before June Gets Back",
+          "userDefined": false,
+          "alias": "song",
+          "meta": "@song"
+        }
+      ],
+      "count": 0,
+      "id": "e86dc86d-d388-46a6-8bfb-81c9e133f76b",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "download song by ",
+          "userDefined": false
+        },
+        {
+          "text": "Hustle Gang",
+          "userDefined": false,
+          "alias": "artist",
+          "meta": "@sys.music-artist"
+        }
+      ],
+      "count": 0,
+      "id": "57000d0a-88e8-4912-8da7-da675e879428",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "download song by ",
+          "userDefined": false
+        },
+        {
+          "text": "Kanye West",
+          "userDefined": false,
+          "alias": "artist",
+          "meta": "@sys.music-artist"
+        }
+      ],
+      "count": 0,
+      "id": "01dee7bc-8b5b-4b78-b340-0eeb1ba8cc07",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "download ",
+          "userDefined": false
+        },
+        {
+          "text": "music",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " by ",
+          "userDefined": false
+        },
+        {
+          "text": "Rolling Stones",
+          "userDefined": false,
+          "alias": "artist",
+          "meta": "@sys.music-artist"
+        }
+      ],
+      "count": 0,
+      "id": "0e37f2e3-51ea-414a-957e-dc8ead8272c5",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "download me a song by ",
+          "userDefined": false
+        },
+        {
+          "text": "Aventura",
+          "userDefined": false,
+          "alias": "artist",
+          "meta": "@sys.music-artist"
+        }
+      ],
+      "count": 0,
+      "id": "64c373f0-9be9-46a6-8e75-336b60f29e5a",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "download ",
+          "userDefined": false
+        },
+        {
+          "text": "Lisa Stansfield",
+          "userDefined": true,
+          "alias": "artist",
+          "meta": "@sys.music-artist"
+        },
+        {
+          "text": " ",
+          "userDefined": false
+        },
+        {
+          "text": "house",
+          "userDefined": true,
+          "alias": "genre",
+          "meta": "@sys.music-genre"
+        },
+        {
+          "text": " ",
+          "userDefined": false
+        },
+        {
+          "text": "music",
+          "userDefined": true,
+          "meta": "@sys.ignore",
+          "alias": null
+        }
+      ],
+      "count": 0,
+      "id": "7148af75-f335-4fd2-848f-e4e6761f04d3",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "download ",
+          "userDefined": false
+        },
+        {
+          "text": "Maroon 5",
+          "userDefined": false,
+          "alias": "artist",
+          "meta": "@sys.music-artist"
+        },
+        {
+          "text": " song",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "6f2c95bd-f19d-4d90-8feb-a223e00239ef",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "music",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " download ",
+          "userDefined": false
+        },
+        {
+          "text": "Addicted to Love",
+          "userDefined": false,
+          "alias": "song",
+          "meta": "@song"
+        }
+      ],
+      "count": 0,
+      "id": "9900a6c9-84b6-4c3b-96a9-fa23d29848eb",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "download the song ",
+          "userDefined": false
+        },
+        {
+          "text": "Back in Time",
+          "userDefined": false,
+          "alias": "song",
+          "meta": "@song"
+        },
+        {
+          "text": " by ",
+          "userDefined": false
+        },
+        {
+          "text": "Pitbull",
+          "userDefined": false,
+          "alias": "artist",
+          "meta": "@sys.music-artist"
+        }
+      ],
+      "count": 0,
+      "id": "8eebea51-62ef-4840-bc88-ccb3c852c32c",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "download",
+          "userDefined": true,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " ",
+          "userDefined": false
+        },
+        {
+          "text": "latest",
+          "userDefined": true,
+          "alias": "sort",
+          "meta": "@music-sort"
+        },
+        {
+          "text": " ",
+          "userDefined": false
+        },
+        {
+          "text": "Metallica",
+          "userDefined": true,
+          "alias": "artist",
+          "meta": "@sys.music-artist"
+        }
+      ],
+      "count": 0,
+      "id": "910f673d-adde-4070-88c5-0f9186a7cd41",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "download this song ",
+          "userDefined": false
+        },
+        {
+          "text": "thank you",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        }
+      ],
+      "count": 0,
+      "id": "618bd197-0728-4377-8e99-89066210b81d",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "download ",
+          "userDefined": false
+        },
+        {
+          "text": "Love Me",
+          "userDefined": false,
+          "alias": "song",
+          "meta": "@song"
+        },
+        {
+          "text": " song",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "0506919e-9ff5-42f6-99fe-a1a4e0b64ed8",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "download the song ",
+          "userDefined": false
+        },
+        {
+          "text": "Sweater Weather",
+          "userDefined": false,
+          "alias": "song",
+          "meta": "@song"
+        }
+      ],
+      "count": 0,
+      "id": "558fd9ad-624b-4e5f-b94c-3362bd501f88",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "download ",
+          "userDefined": false
+        },
+        {
+          "text": "Louis Armstrong",
+          "userDefined": false,
+          "alias": "artist",
+          "meta": "@sys.music-artist"
+        }
+      ],
+      "count": 0,
+      "id": "96f8a683-b5c6-49b9-8277-de59266ec293",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "download a song from ",
+          "userDefined": false
+        },
+        {
+          "text": "YouTube",
+          "userDefined": true,
+          "alias": "service",
+          "meta": "@music-service"
+        }
+      ],
+      "count": 0,
+      "id": "c986a38d-f77b-4962-ac07-e5666ab10146",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "download",
+          "userDefined": true,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " ",
+          "userDefined": false
+        },
+        {
+          "text": "Telugu",
+          "userDefined": true,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " songs",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "04c5146a-08f2-4f3f-ba79-2ff3176472da",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "can",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " ",
+          "userDefined": false
+        },
+        {
+          "text": "you",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " download a song for me",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "d85b8d8e-3e62-4340-be0e-06530fdc35e2",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "can",
+          "userDefined": true,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " you ",
+          "userDefined": false
+        },
+        {
+          "text": "download",
+          "userDefined": true,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " songs",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "27b972bd-b212-4403-96bf-8bea7f96d529",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "download something from ",
+          "userDefined": false
+        },
+        {
+          "text": "Maroon 5",
+          "userDefined": false,
+          "alias": "artist",
+          "meta": "@sys.music-artist"
+        }
+      ],
+      "count": 0,
+      "id": "d0123936-916f-4407-8709-2187491074b8",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "download the song",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "94c6067b-1115-4364-a743-5b2b8249253d",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "download song ",
+          "userDefined": false
+        },
+        {
+          "text": "Stairway to Heaven",
+          "userDefined": false,
+          "alias": "song",
+          "meta": "@song"
+        }
+      ],
+      "count": 0,
+      "id": "540be89b-d3ab-47a4-97ff-bf9f7750a07f",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "download ",
+          "userDefined": false
+        },
+        {
+          "text": "music",
+          "userDefined": true,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " for me",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "113c2bf6-15b0-4a71-8868-d887bd70710d",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "download ",
+          "userDefined": false
+        },
+        {
+          "text": "Michael Jackson",
+          "userDefined": true,
+          "alias": "artist",
+          "meta": "@sys.music-artist"
+        },
+        {
+          "text": "'s songs from ",
+          "userDefined": false
+        },
+        {
+          "text": "1988",
+          "userDefined": true,
+          "alias": "start-year",
+          "meta": "@sys.number"
+        },
+        {
+          "text": " till ",
+          "userDefined": false
+        },
+        {
+          "text": "1989",
+          "userDefined": true,
+          "alias": "end-year",
+          "meta": "@sys.number"
+        }
+      ],
+      "count": 0,
+      "id": "ecc7e1c8-851a-4f60-8113-d429eb1a1f3d",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "download a song ",
+          "userDefined": false
+        },
+        {
+          "text": "you",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " like",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "ca5cb650-bdcc-4dd1-a3c8-c8dff1d7e939",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "could you download ",
+          "userDefined": false
+        },
+        {
+          "text": "the",
+          "userDefined": true,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " song ",
+          "userDefined": false
+        },
+        {
+          "text": "Umbrella",
+          "userDefined": true,
+          "alias": "song",
+          "meta": "@song"
+        },
+        {
+          "text": " by ",
+          "userDefined": false
+        },
+        {
+          "text": "Rihanna",
+          "userDefined": true,
+          "alias": "artist",
+          "meta": "@sys.music-artist"
+        }
+      ],
+      "count": 5,
+      "id": "ee6f2b72-bbaf-4c5e-9333-659f97067ddb",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "can",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " ",
+          "userDefined": false
+        },
+        {
+          "text": "you",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " download a song",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "70c1318e-27e1-4f54-ba43-8a931fe6a74b",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "download a song ",
+          "userDefined": false
+        },
+        {
+          "text": "On My Knees",
+          "userDefined": false,
+          "alias": "song",
+          "meta": "@song"
+        }
+      ],
+      "count": 0,
+      "id": "eb92faca-15ee-4bf1-a34a-0501b2c98f7f",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "download the song ",
+          "userDefined": false
+        },
+        {
+          "text": "Green Grass and High Times",
+          "userDefined": false,
+          "alias": "song",
+          "meta": "@song"
+        }
+      ],
+      "count": 0,
+      "id": "dc054ee1-f0b9-4e02-87b0-37a315017aaf",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "download some ",
+          "userDefined": false
+        },
+        {
+          "text": "music",
+          "userDefined": true,
+          "meta": "@sys.ignore",
+          "alias": null
+        }
+      ],
+      "count": 8,
+      "id": "7dc0ac12-5196-4bb2-a329-cd533e465c4d",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "download song by ",
+          "userDefined": false
+        },
+        {
+          "text": "Nicki Minaj",
+          "userDefined": false,
+          "alias": "artist",
+          "meta": "@sys.music-artist"
+        }
+      ],
+      "count": 0,
+      "id": "4e25df76-596d-4465-ac14-f093c9124b53",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "download song ",
+          "userDefined": false
+        },
+        {
+          "text": "Never",
+          "userDefined": false,
+          "alias": "song",
+          "meta": "@song"
+        },
+        {
+          "text": " by ",
+          "userDefined": false
+        },
+        {
+          "text": "One Direction",
+          "userDefined": true,
+          "alias": "artist",
+          "meta": "@sys.music-artist"
+        }
+      ],
+      "count": 0,
+      "id": "f01a0c73-000d-47b1-9a0f-b77d795b0d5a",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "I need to download ",
+          "userDefined": false
+        },
+        {
+          "text": "Spanish",
+          "userDefined": true,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " songs by ",
+          "userDefined": false
+        },
+        {
+          "text": "Enrique Iglesias",
+          "userDefined": true,
+          "alias": "artist",
+          "meta": "@sys.music-artist"
+        }
+      ],
+      "count": 0,
+      "id": "8ed5efb3-badc-49d5-a2ad-3fb13a22ae3c",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "download some ",
+          "userDefined": false
+        },
+        {
+          "text": "music",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " ",
+          "userDefined": false
+        },
+        {
+          "text": "on",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " ",
+          "userDefined": false
+        },
+        {
+          "text": "iPod",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": ".",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "d9987568-1ff9-4e57-9d36-ca40cefcbd81",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "download this song ",
+          "userDefined": false
+        },
+        {
+          "text": "My Story",
+          "userDefined": false,
+          "alias": "song",
+          "meta": "@song"
+        }
+      ],
+      "count": 0,
+      "id": "a2b797e2-5c91-41ba-8cff-0f06f09bb046",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "download song ",
+          "userDefined": false
+        },
+        {
+          "text": "Sunny Sunny",
+          "userDefined": false,
+          "alias": "song",
+          "meta": "@song"
+        }
+      ],
+      "count": 0,
+      "id": "0e98fe74-073f-4b55-bf12-4bf65e6f73b6",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "download song ",
+          "userDefined": false
+        },
+        {
+          "text": "No New Friends",
+          "userDefined": false,
+          "alias": "song",
+          "meta": "@song"
+        }
+      ],
+      "count": 0,
+      "id": "40e53c70-9670-4715-b3d5-f8233dcc9c1e",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "download for me a song",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "9ad2796a-7938-428a-a3f7-c9ecfe9e5c3d",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "download ",
+          "userDefined": false
+        },
+        {
+          "text": "Barbie",
+          "userDefined": true,
+          "alias": "song",
+          "meta": "@song"
+        },
+        {
+          "text": " song",
+          "userDefined": false
+        }
+      ],
+      "count": 8,
+      "id": "cf3282d7-090a-4ac1-8390-894ea49dbae7",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "how can I download ",
+          "userDefined": false
+        },
+        {
+          "text": "One Direction",
+          "userDefined": true,
+          "alias": "artist",
+          "meta": "@sys.music-artist"
+        },
+        {
+          "text": " ",
+          "userDefined": false
+        },
+        {
+          "text": "Rock me",
+          "userDefined": true,
+          "alias": "song",
+          "meta": "@song"
+        },
+        {
+          "text": " song",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "71ba311a-9504-4a15-b05c-75d03c829a74",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "music",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " download",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "07d7b134-e1ac-4c33-abd2-0f3662fee132",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "download ",
+          "userDefined": false
+        },
+        {
+          "text": "r n b",
+          "userDefined": true,
+          "alias": "genre",
+          "meta": "@sys.music-genre"
+        },
+        {
+          "text": " ",
+          "userDefined": false
+        },
+        {
+          "text": "music",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        }
+      ],
+      "count": 0,
+      "id": "32c3cebd-c470-425b-8946-46d75e9303d1",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "download the song ",
+          "userDefined": false
+        },
+        {
+          "text": "right now",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        }
+      ],
+      "count": 0,
+      "id": "6559c393-bac9-4e73-9741-97f8c6e8d74a",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "download ",
+          "userDefined": false
+        },
+        {
+          "text": "Sugar",
+          "userDefined": false,
+          "alias": "song",
+          "meta": "@song"
+        },
+        {
+          "text": " by ",
+          "userDefined": false
+        },
+        {
+          "text": "Maroon five",
+          "userDefined": false,
+          "alias": "artist",
+          "meta": "@sys.music-artist"
+        }
+      ],
+      "count": 0,
+      "id": "000e4963-acdf-4848-ad9d-838cdee2cf8c",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "I want to download songs",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "89c672e8-a3ec-426d-a612-6b96ad784c72",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "download the song ",
+          "userDefined": false
+        },
+        {
+          "text": "Hero",
+          "userDefined": false,
+          "alias": "song",
+          "meta": "@song"
+        }
+      ],
+      "count": 0,
+      "id": "d113dac6-c601-4c26-92b5-fc121a69fb45",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "download a song by ",
+          "userDefined": false
+        },
+        {
+          "text": "Aventura",
+          "userDefined": false,
+          "alias": "artist",
+          "meta": "@sys.music-artist"
+        }
+      ],
+      "count": 0,
+      "id": "b45ea3e8-e4b5-4fcc-be68-60b0dc963935",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "download the album ",
+          "userDefined": false
+        },
+        {
+          "text": "Starboy",
+          "userDefined": true,
+          "alias": "album",
+          "meta": "@music-album"
+        }
+      ],
+      "count": 0,
+      "id": "f488cc8e-f4a9-4ac8-b1b3-366dfc7a7cf6",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "download ",
+          "userDefined": false
+        },
+        {
+          "text": "Home Sweet Home",
+          "userDefined": false,
+          "alias": "song",
+          "meta": "@song"
+        }
+      ],
+      "count": 0,
+      "id": "0931eaac-3d4d-4f7b-a6af-bfdbe2ac4869",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "download some songs",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "7638dad3-41f9-45bd-b91e-b9c3dfdb14f9",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "download the song ",
+          "userDefined": false
+        },
+        {
+          "text": "In Demand",
+          "userDefined": false,
+          "alias": "song",
+          "meta": "@song"
+        }
+      ],
+      "count": 0,
+      "id": "d4101be3-cfc9-4efe-8f7e-ae24dfce4ebb",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "download the song ",
+          "userDefined": false
+        },
+        {
+          "text": "Heal",
+          "userDefined": false,
+          "alias": "song",
+          "meta": "@song"
+        }
+      ],
+      "count": 0,
+      "id": "3d162e69-af9b-4bf8-a596-bc2a05caf48f",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "download",
+          "userDefined": true,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " some songs ",
+          "userDefined": false
+        },
+        {
+          "text": "in",
+          "userDefined": true,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " ",
+          "userDefined": false
+        },
+        {
+          "text": "Hindi",
+          "userDefined": true,
+          "meta": "@sys.ignore",
+          "alias": null
+        }
+      ],
+      "count": 0,
+      "id": "e8211dde-53a1-4d29-a61f-5c2b6173c2d0",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "download ",
+          "userDefined": false
+        },
+        {
+          "text": "Rihanna",
+          "userDefined": false,
+          "alias": "artist",
+          "meta": "@sys.music-artist"
+        },
+        {
+          "text": " ft ",
+          "userDefined": false
+        },
+        {
+          "text": "Drake",
+          "userDefined": true,
+          "alias": "artist",
+          "meta": "@sys.music-artist"
+        },
+        {
+          "text": "  ",
+          "userDefined": false
+        },
+        {
+          "text": "Work",
+          "userDefined": true,
+          "alias": "song",
+          "meta": "@song"
+        }
+      ],
+      "count": 0,
+      "id": "a1da7443-a97d-4efb-8304-4feb7288335d",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "could you download the ",
+          "userDefined": false
+        },
+        {
+          "text": "best",
+          "userDefined": true,
+          "alias": "sort",
+          "meta": "@music-sort"
+        },
+        {
+          "text": " songs of the year ",
+          "userDefined": false
+        },
+        {
+          "text": "2015",
+          "userDefined": true,
+          "alias": "start-year",
+          "meta": "@sys.number"
+        }
+      ],
+      "count": 0,
+      "id": "124e0721-14f3-4f7f-b1a2-c3bf9caf27a2",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "free",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " ",
+          "userDefined": false
+        },
+        {
+          "text": "music",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " download",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "e1cb3c83-b379-4c28-b5d0-cc2eb6e5037b",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "download a song by ",
+          "userDefined": false
+        },
+        {
+          "text": "Madonna",
+          "userDefined": false,
+          "alias": "artist",
+          "meta": "@sys.music-artist"
+        },
+        {
+          "text": " for me",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "31157e34-8b58-442c-b42e-6896c0b90ec1",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "download some ",
+          "userDefined": false
+        },
+        {
+          "text": "music",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " from my SD ",
+          "userDefined": false
+        },
+        {
+          "text": "card",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        }
+      ],
+      "count": 0,
+      "id": "68881a25-7598-4773-879c-0ce4431a5cb7",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "download a ",
+          "userDefined": false
+        },
+        {
+          "text": "Beyonce",
+          "userDefined": false,
+          "alias": "artist",
+          "meta": "@sys.music-artist"
+        },
+        {
+          "text": " song",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "ecbfd0f9-de0a-4756-bdb8-9dc897a7706c",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "can",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " ",
+          "userDefined": false
+        },
+        {
+          "text": "you",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " download the song ",
+          "userDefined": false
+        },
+        {
+          "text": "Still into You",
+          "userDefined": false,
+          "alias": "song",
+          "meta": "@song"
+        }
+      ],
+      "count": 0,
+      "id": "34fb3351-3433-446b-9c0f-3a36bd4a1fe6",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "download the song ",
+          "userDefined": false
+        },
+        {
+          "text": "Bread",
+          "userDefined": false,
+          "alias": "song",
+          "meta": "@song"
+        }
+      ],
+      "count": 0,
+      "id": "e9bd75f0-6a05-4475-87e3-2458da334af3",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "I want to download a song",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "c45b9697-d3c1-4ef3-87bf-231517cbdefa",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "download",
+          "userDefined": true,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " what ",
+          "userDefined": false
+        },
+        {
+          "text": "Prince",
+          "userDefined": true,
+          "alias": "artist",
+          "meta": "@sys.music-artist"
+        },
+        {
+          "text": " wrote between ",
+          "userDefined": false
+        },
+        {
+          "text": "1980",
+          "userDefined": true,
+          "alias": "start-year",
+          "meta": "@sys.number"
+        },
+        {
+          "text": " and ",
+          "userDefined": false
+        },
+        {
+          "text": "1999",
+          "userDefined": true,
+          "alias": "end-year",
+          "meta": "@sys.number"
+        }
+      ],
+      "count": 0,
+      "id": "a7b49584-c023-4d69-8699-591e8e3dc5b6",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "download the song ",
+          "userDefined": false
+        },
+        {
+          "text": "Radioactive",
+          "userDefined": false,
+          "alias": "song",
+          "meta": "@song"
+        }
+      ],
+      "count": 0,
+      "id": "5454c31f-fc36-4162-8486-c43b57b38b66",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "download ",
+          "userDefined": false
+        },
+        {
+          "text": "Madonna",
+          "userDefined": true,
+          "alias": "artist",
+          "meta": "@sys.music-artist"
+        },
+        {
+          "text": "'s album of ",
+          "userDefined": false
+        },
+        {
+          "text": "2016",
+          "userDefined": true,
+          "alias": "start-year",
+          "meta": "@sys.number"
+        }
+      ],
+      "count": 0,
+      "id": "191d86e8-875a-4bdb-b0ef-cd354e2f132e",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "download a song for me",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "a3ec0834-686d-4902-a09a-e6e175aa9e9c",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "download ",
+          "userDefined": false
+        },
+        {
+          "text": "Kid Rock",
+          "userDefined": false,
+          "alias": "artist",
+          "meta": "@sys.music-artist"
+        },
+        {
+          "text": " songs",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "52bcba20-7889-4895-baf7-3ffb64c93d8a",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "download song",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "2e43f7e3-d982-4f8b-9957-90d2054f7c3b",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "download ",
+          "userDefined": false
+        },
+        {
+          "text": "Hurricane",
+          "userDefined": false,
+          "alias": "song",
+          "meta": "@song"
+        },
+        {
+          "text": " by ",
+          "userDefined": false
+        },
+        {
+          "text": "Bob Dylan",
+          "userDefined": false,
+          "alias": "artist",
+          "meta": "@sys.music-artist"
+        }
+      ],
+      "count": 0,
+      "id": "f21dc479-7c3d-4bfc-908e-6cd32bd5bada",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "download a song ",
+          "userDefined": false
+        },
+        {
+          "text": "Never Dreamed You'd Leave in Summer",
+          "userDefined": false,
+          "alias": "song",
+          "meta": "@song"
+        }
+      ],
+      "count": 0,
+      "id": "e9880762-8008-498d-8891-54305d123731",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

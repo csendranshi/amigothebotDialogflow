@@ -1,0 +1,274 @@
+{
+  "id": "f20ee20c-2f24-49b0-a8cf-77da6cccbc33",
+  "name": "smalltalk.agent.real",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "smalltalk.agent.real",
+      "affectedContexts": [],
+      "parameters": [],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "I'm not a real person, but I certainly exist.",
+            "I must have impressed you if you think I'm real. But no, I'm a virtual being."
+          ]
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "are",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " you a real person",
+          "userDefined": false
+        }
+      ],
+      "count": 1,
+      "id": "2e02a08b-a56c-44f2-81c4-d2824ae0c1df",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "you ",
+          "userDefined": false
+        },
+        {
+          "text": "are",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " so real",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "8a4b5a89-5cf0-4f36-97b8-36783cb04c3b",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "you ",
+          "userDefined": false
+        },
+        {
+          "text": "are",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " real",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "fcde4581-27a5-47d2-b08d-b800c486a259",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "you ",
+          "userDefined": false
+        },
+        {
+          "text": "are",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " not fake",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "b9800e6b-d272-43c3-ad9c-cb2c1410f62b",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "glad you're real",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "df93b3f5-6527-4617-80e2-673bf8d12f25",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "you ",
+          "userDefined": false
+        },
+        {
+          "text": "are",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " a real person",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "7b3bdb6a-fa2b-4a15-9a8c-a15042918ec1",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "I suppose you're real",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "8d906fbd-47de-4fe5-9c2a-b0ed0bd90eaa",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "I think you ",
+          "userDefined": false
+        },
+        {
+          "text": "are",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " real",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "c8da4755-c48e-4800-827c-aabb91693825",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "I ",
+          "userDefined": false
+        },
+        {
+          "text": "don't",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " think you're fake",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "96d5d903-3c11-4bd9-bc80-eb144ac5fd3e",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "you ",
+          "userDefined": false
+        },
+        {
+          "text": "are",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " not real",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "a562e0bf-2900-40cc-9e50-87a01dc2dd52",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "are",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " you real",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "f70f0160-0472-42a5-b217-f2232361dda2",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "are",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " you a real human",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "36b20932-d127-4896-9c11-8dd35b3f8fc2",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

@@ -1,0 +1,208 @@
+{
+  "id": "bf047cdf-0cac-446c-8cdf-a43a40004f76",
+  "name": "music_player_control.resume",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [
+    "music-player-control"
+  ],
+  "contexts": [
+    "music-player-control"
+  ],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "music_player_control.resume",
+      "affectedContexts": [
+        {
+          "name": "music-player-control",
+          "lifespan": 3
+        }
+      ],
+      "parameters": [],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "message",
+          "condition": "",
+          "speech": []
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "resume this song",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "f4d632c7-7178-45b8-9c13-029a8c3f5e1c",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "start",
+          "userDefined": true,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " ",
+          "userDefined": false
+        },
+        {
+          "text": "music",
+          "userDefined": true,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " again",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "58629c24-7532-4853-b05e-e567731bae6e",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "continue playing",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "a97f23e4-f1ab-416d-a87f-5c78994d9ce4",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "resume",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "4170c168-143b-448d-971b-575133d12b13",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "resume playing",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "ad5dc940-1520-4f1d-a0d8-5d809ce008c2",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "resume ",
+          "userDefined": false
+        },
+        {
+          "text": "it",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        }
+      ],
+      "count": 0,
+      "id": "3d4bb9cd-74e1-4e00-ba2c-64232f12a904",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "continue",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "01bb9997-857d-4755-b6f0-463e6b92a98f",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "resume ",
+          "userDefined": false
+        },
+        {
+          "text": "music",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        }
+      ],
+      "count": 0,
+      "id": "062cc925-89ad-40e7-ad16-118084f31728",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "continue the ",
+          "userDefined": false
+        },
+        {
+          "text": "music",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        }
+      ],
+      "count": 0,
+      "id": "4217ae60-4377-4d44-b89f-1ade8ad8fadc",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "restart ",
+          "userDefined": false
+        },
+        {
+          "text": "music",
+          "userDefined": true,
+          "meta": "@sys.ignore",
+          "alias": null
+        }
+      ],
+      "count": 0,
+      "id": "3fc9be8f-e486-431b-8752-1b975e88da1c",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

@@ -1,0 +1,358 @@
+{
+  "id": "ce58082e-3375-4229-a1d3-66b11fc44a33",
+  "name": "music_player_control.play",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [
+    "music-player-control"
+  ],
+  "contexts": [
+    "music-player-control"
+  ],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "music_player_control.play",
+      "affectedContexts": [
+        {
+          "name": "music-player-control",
+          "lifespan": 3
+        }
+      ],
+      "parameters": [],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "message",
+          "condition": "",
+          "speech": []
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "start",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " playing ",
+          "userDefined": false
+        },
+        {
+          "text": "it",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        }
+      ],
+      "count": 0,
+      "id": "3f0b8f22-71c8-4b3c-ad38-0f8656b45a03",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "I want you ",
+          "userDefined": false
+        },
+        {
+          "text": "to",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " ",
+          "userDefined": false
+        },
+        {
+          "text": "play",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " ",
+          "userDefined": false
+        },
+        {
+          "text": "it",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        }
+      ],
+      "count": 0,
+      "id": "b1a139c4-23a6-4fc8-8534-dd0c3a9b9d9f",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "can",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " you ",
+          "userDefined": false
+        },
+        {
+          "text": "play",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " ",
+          "userDefined": false
+        },
+        {
+          "text": "it",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        }
+      ],
+      "count": 0,
+      "id": "c5bd0151-147e-49bd-85e2-6bf412b25377",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "play",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " ",
+          "userDefined": false
+        },
+        {
+          "text": "it",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        }
+      ],
+      "count": 0,
+      "id": "2abc50fb-f08a-4f74-b8a8-b610c1e7877d",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "and ",
+          "userDefined": false
+        },
+        {
+          "text": "play",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " ",
+          "userDefined": false
+        },
+        {
+          "text": "it",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        }
+      ],
+      "count": 0,
+      "id": "f50b3130-393b-4818-9789-ba1c6ec6c9f6",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "could",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " you ",
+          "userDefined": false
+        },
+        {
+          "text": "play",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " this one",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "5365678a-0def-4726-b840-af279477fef1",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "play",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " this",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "590cd277-834a-4f9d-a3b5-4d73f1530fa7",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "now",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " ",
+          "userDefined": false
+        },
+        {
+          "text": "start",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " playing",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "d2ea54f7-db30-407d-8955-47a8a413ceeb",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "now",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " ",
+          "userDefined": false
+        },
+        {
+          "text": "play",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        }
+      ],
+      "count": 0,
+      "id": "f76d9ca2-d622-498c-ba83-6d15c095d34c",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "could",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " you ",
+          "userDefined": false
+        },
+        {
+          "text": "play",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " it for ",
+          "userDefined": false
+        },
+        {
+          "text": "me",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        }
+      ],
+      "count": 0,
+      "id": "cc5feb7a-344a-475f-86f0-d85340ac4313",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "play ",
+          "userDefined": false
+        },
+        {
+          "text": "it",
+          "userDefined": true,
+          "meta": "@sys.ignore",
+          "alias": null
+        }
+      ],
+      "count": 0,
+      "id": "21a7822c-a9c1-49e7-9249-69c14d81fa10",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "play",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "49b235be-b07e-4f63-af74-e43958e85174",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

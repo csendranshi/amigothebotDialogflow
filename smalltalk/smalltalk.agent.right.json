@@ -1,0 +1,330 @@
+{
+  "id": "dd633ead-4a8d-4daa-984c-5a9b60f088de",
+  "name": "smalltalk.agent.right",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "smalltalk.agent.right",
+      "affectedContexts": [],
+      "parameters": [],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "That's my job.",
+            "Of course I am."
+          ]
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "that is true",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "876759a7-97f3-48a0-8e6e-5264fe9a723c",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "it's",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " the truth",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "05fae1f3-7770-439f-b602-22fb7eeded64",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "you ",
+          "userDefined": false
+        },
+        {
+          "text": "are",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " correct",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "64376f71-4520-49e3-a8c6-793a1f46ffcf",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "that's true",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "080f3e83-7c00-470d-99a7-0636e5403048",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "it's",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " right",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "0ac217f0-b850-4ca8-9a97-e89fbb527d11",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "I know that's right",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "41521953-4559-4c9b-b910-a0931bc9ec91",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "true",
+          "userDefined": false
+        }
+      ],
+      "count": 1,
+      "id": "04e3353f-a080-4c69-9706-094f89040ba4",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "you ",
+          "userDefined": false
+        },
+        {
+          "text": "are",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " so right",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "6c87f50c-8cdc-4c2a-b1b1-fdefa5caf221",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "you're absolutely right",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "7d50edb6-be95-4c9c-b4b1-60924aba140b",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "it",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " is true",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "523e4244-4d3c-4edb-ae10-cd7e72580484",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "you're telling the truth",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "f9219a09-78e3-4cd1-8c8d-dee54f42b93c",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "you ",
+          "userDefined": false
+        },
+        {
+          "text": "are",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " right",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "4b438cca-82bb-4a0a-ab8c-03f07e5e6f69",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "that is very true",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "2235f4c0-a585-4eee-b0c2-fe15fcbd03a3",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "that's so true",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "c437ffd9-6cf8-4b8d-914d-2730db651dbf",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "that is right",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "98ee4867-8998-4e7c-8d3a-f2343c984215",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "you're not wrong",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "55d12c3d-f017-4eb6-89ee-9decd354b360",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "you're right about that",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "091b7894-91af-4ca2-9f8d-1bcc59ad2c0c",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "it's true",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "d9e21d04-1775-4e46-af4e-904b049f6177",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "you're definitely right",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "4dff2f66-abfd-4cea-8872-1a493412b132",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "what you say is true",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "89aba0a3-4af5-45aa-9121-0d1cecfe09aa",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

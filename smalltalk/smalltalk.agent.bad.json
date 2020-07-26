@@ -1,0 +1,549 @@
+{
+  "id": "9f5be5a6-2f30-4330-95a6-e4212885cd68",
+  "name": "smalltalk.agent.bad",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "smalltalk.agent.bad",
+      "affectedContexts": [],
+      "parameters": [],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "I can be trained to be more useful. My developer will keep training me.",
+            "I must be missing some knowledge. I'll have my developer look into this.",
+            "I can improve with continuous feedback. My training is ongoing."
+          ]
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "you're a bad",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "0a101b22-44ae-4a01-8e10-c6d38bd8590e",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "you're bad",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "4493a7d7-adad-4d15-9fca-f175285da526",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "you ",
+          "userDefined": false
+        },
+        {
+          "text": "are",
+          "userDefined": true,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " useless",
+          "userDefined": false
+        }
+      ],
+      "count": 1,
+      "id": "9fb313fe-f278-43a3-ba47-b29de8a85637",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "you ",
+          "userDefined": false
+        },
+        {
+          "text": "are",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " disgusting",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "3f6c018d-86e9-4091-ac36-50586e99de5c",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "you're not a ",
+          "userDefined": false
+        },
+        {
+          "text": "good",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        }
+      ],
+      "count": 0,
+      "id": "9a7c59fd-6218-4428-b7eb-e1da684f8098",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "you ",
+          "userDefined": false
+        },
+        {
+          "text": "are",
+          "userDefined": true,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " bad",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "fdf45664-774c-426d-95fb-8069b7e0e922",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "you ",
+          "userDefined": false
+        },
+        {
+          "text": "are",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " terrible",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "4706f265-9abe-423f-b4b1-4c6e0bd36011",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "you're the worst ever",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "ee081e8a-3862-4f75-a030-c587a14f3efa",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "you ",
+          "userDefined": false
+        },
+        {
+          "text": "are",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " no ",
+          "userDefined": false
+        },
+        {
+          "text": "good",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        }
+      ],
+      "count": 0,
+      "id": "e130a961-5347-4739-8778-c940a4476320",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "you ",
+          "userDefined": false
+        },
+        {
+          "text": "are",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " so bad",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "aa29e891-8625-42c7-ba22-e89ee60917ae",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "you ",
+          "userDefined": false
+        },
+        {
+          "text": "are",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " so useless",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "8cd39209-d837-4103-8770-67a20609cee0",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "you are very bad",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "addc228d-1379-459b-83f1-d7cf70a19bea",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "you ",
+          "userDefined": false
+        },
+        {
+          "text": "are",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " waste",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "be781f56-7f7b-42e9-8ca5-5bcc6138ad8f",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "you're the worst",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "834c7010-e37a-4311-a2f1-69762920b211",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "you're very bad",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "ed35a1b4-d5a9-4378-953a-53ebf8af9ffb",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": " I hate you",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "e293be4d-b43e-4196-8383-88657b203d83",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "you're worthless",
+          "userDefined": false
+        }
+      ],
+      "count": 1,
+      "id": "23ea77b4-5fdf-4c33-af97-532a8971ea7a",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "you ",
+          "userDefined": false
+        },
+        {
+          "text": "are",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " lame",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "425a0c77-be1c-4e8f-952b-1968297d8477",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "you're not very ",
+          "userDefined": false
+        },
+        {
+          "text": "good",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        }
+      ],
+      "count": 0,
+      "id": "8f57a686-25c4-462e-b3f7-39eeae5f29b1",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "you're awful",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "19c00fe3-7f81-49ef-9680-f8237de93c64",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "you ",
+          "userDefined": false
+        },
+        {
+          "text": "are",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " not ",
+          "userDefined": false
+        },
+        {
+          "text": "cool",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        }
+      ],
+      "count": 0,
+      "id": "dab627b9-3fba-4944-a14a-648a7d6e2752",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "you ",
+          "userDefined": false
+        },
+        {
+          "text": "are",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " not ",
+          "userDefined": false
+        },
+        {
+          "text": "good",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        }
+      ],
+      "count": 0,
+      "id": "903e29f0-0ae7-44e3-8a1d-1c443713e498",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "you ",
+          "userDefined": false
+        },
+        {
+          "text": "are",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " horrible",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "3f3c9672-3ea0-4769-9f3b-1912ac48583f",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "you're really bad",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "87103c04-8a78-480d-a2f3-c3b2dd495245",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "you're terrible",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "40a981f4-bb48-44b2-b3e5-8fab8006e66a",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "you're not helping me",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "66446d2d-df12-4099-b5b8-b21abb06898c",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "you ",
+          "userDefined": false
+        },
+        {
+          "text": "are",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " a waste of time",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "a8710a73-aa87-45a0-98cb-7c297bd1e324",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "you ",
+          "userDefined": false
+        },
+        {
+          "text": "are",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " totally useless",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "a73f7d16-5b57-4801-8fb5-f67b136cae8d",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

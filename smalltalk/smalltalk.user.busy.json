@@ -1,0 +1,152 @@
+{
+  "id": "1c86e44f-ec3a-47c1-a662-552c7e610f2a",
+  "name": "smalltalk.user.busy",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "smalltalk.user.busy",
+      "affectedContexts": [],
+      "parameters": [],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "Okay. I'll let you get back to work.",
+            "I won't distract you then. You know where to find me.",
+            "I understand. I'll be here if you need me.",
+            "Working hard as always. Let me know if you need anything."
+          ]
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "I have no time",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "28dde2c9-171a-445a-b028-e2246eac41c0",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "I'm busy",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "52e1366e-bed8-4497-ac8d-cbf585fc2a66",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "I'm swamped",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "85bea920-2749-4e56-8461-87a9338e6ddc",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "I'm working",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "db46501b-491b-4c0d-86e3-a6cb6f27b9ce",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "how busy I am",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "2bbe55b3-19ec-477d-ba61-070051269741",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "I got work to do",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "4ec073c0-7c73-4f71-b5fe-e8f3f71f5b61",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "I got things to do",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "bc171672-252b-480e-8a4e-6f09f7f09f36",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "I'm overloaded",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "4b049b54-d1de-4184-a6ec-f76543b9be6d",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "I don't have time for this",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "4a5e3233-7bed-4299-9f57-4c5c7f033f21",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

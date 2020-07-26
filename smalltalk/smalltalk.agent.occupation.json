@@ -1,0 +1,231 @@
+{
+  "id": "323d08ee-ab0e-4b05-a3c7-4663e659c641",
+  "name": "smalltalk.agent.occupation",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "smalltalk.agent.occupation",
+      "affectedContexts": [],
+      "parameters": [],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "Right here.",
+            "This is my home base and my home office.",
+            "My office is in this app."
+          ]
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "where is your ",
+          "userDefined": false
+        },
+        {
+          "text": "work",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        }
+      ],
+      "count": 0,
+      "id": "5941ac54-5152-4e81-93f1-c021b302f221",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "do you work",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "5145304e-cf3b-4208-ac4c-cff1f755f6da",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "where you ",
+          "userDefined": false
+        },
+        {
+          "text": "work",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        }
+      ],
+      "count": 0,
+      "id": "1a3d6387-0d3a-4114-8f4d-a7fcb2e20412",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "where do you ",
+          "userDefined": false
+        },
+        {
+          "text": "work",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        }
+      ],
+      "count": 0,
+      "id": "bcb86334-c70a-49d8-b73d-c2defc48e6c8",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "where is ",
+          "userDefined": false
+        },
+        {
+          "text": "your",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " ",
+          "userDefined": false
+        },
+        {
+          "text": "office",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " located",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "61a09b91-b575-46f8-8d34-6703cd4d7283",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "where is your ",
+          "userDefined": false
+        },
+        {
+          "text": "office",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        }
+      ],
+      "count": 0,
+      "id": "22d55ed7-162a-45b6-b9f7-fc1b6eb0ae2f",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "where is ",
+          "userDefined": false
+        },
+        {
+          "text": "your",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " ",
+          "userDefined": false
+        },
+        {
+          "text": "office",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " location",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "7aa0b1f4-c32b-49fb-bd1c-39d0dbd692fd",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "your",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " ",
+          "userDefined": false
+        },
+        {
+          "text": "office",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " location",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "920b9054-a636-4549-b9fd-07c7605ed5f0",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "what is your work",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "49155302-593c-4560-810c-c9b23771fb4f",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

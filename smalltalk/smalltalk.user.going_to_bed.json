@@ -1,0 +1,374 @@
+{
+  "id": "874cc13f-dfd3-43f3-a477-5ed896cec94e",
+  "name": "smalltalk.user.going_to_bed",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "smalltalk.user.going_to_bed",
+      "affectedContexts": [],
+      "parameters": [],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "Sleep tight. Hope to chat again soon.",
+            "Pleasant dreams!",
+            "Good night. Talk to you later.",
+            "Sounds good. Maybe we'll chat some tomorrow."
+          ]
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "going ",
+          "userDefined": false
+        },
+        {
+          "text": "to",
+          "userDefined": true,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " bed ",
+          "userDefined": false
+        },
+        {
+          "text": "now",
+          "userDefined": true,
+          "meta": "@sys.ignore",
+          "alias": null
+        }
+      ],
+      "count": 0,
+      "id": "8137dfb5-922e-4b77-8d28-eeba6f5787a8",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "I",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": "'",
+          "userDefined": false
+        },
+        {
+          "text": "m",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " a ",
+          "userDefined": false
+        },
+        {
+          "text": "little",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " tired and ",
+          "userDefined": false
+        },
+        {
+          "text": "I want to go",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " ",
+          "userDefined": false
+        },
+        {
+          "text": "to",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " bed",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "75b912cd-e7b3-4f08-8562-9d9a58cdc141",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "time",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " for ",
+          "userDefined": false
+        },
+        {
+          "text": "us",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " ",
+          "userDefined": false
+        },
+        {
+          "text": "to",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " ",
+          "userDefined": false
+        },
+        {
+          "text": "go",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " ",
+          "userDefined": false
+        },
+        {
+          "text": "to",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " bed",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "404258c2-a12f-4c02-a471-d881d6855c63",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "let's go to bed",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "72822ed0-d016-4498-b4ce-38ccfb6339a5",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "I'd like to go to bed",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "d323f8df-8987-4a82-b9f9-9a0b8dcd6694",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "I",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": "'",
+          "userDefined": false
+        },
+        {
+          "text": "m",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " going ",
+          "userDefined": false
+        },
+        {
+          "text": "to",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " bed",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "dd29a461-4244-4317-9ab7-e3247e992107",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "it",
+          "userDefined": true,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": "'s bed ",
+          "userDefined": false
+        },
+        {
+          "text": "time",
+          "userDefined": true,
+          "meta": "@sys.ignore",
+          "alias": null
+        }
+      ],
+      "count": 0,
+      "id": "bca8b3fb-436e-4edb-bfd7-edfc651c897d",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "it",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": "'",
+          "userDefined": false
+        },
+        {
+          "text": "s",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " ",
+          "userDefined": false
+        },
+        {
+          "text": "time",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " ",
+          "userDefined": false
+        },
+        {
+          "text": "to",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " ",
+          "userDefined": false
+        },
+        {
+          "text": "go",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " ",
+          "userDefined": false
+        },
+        {
+          "text": "to",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " bed",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "61bc33e2-9a04-4bc0-8c31-49524db3c2fe",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "is ",
+          "userDefined": false
+        },
+        {
+          "text": "it",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " ",
+          "userDefined": false
+        },
+        {
+          "text": "time",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " for bed yet",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "f069878d-09e7-41c7-8328-345aabc3d63b",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

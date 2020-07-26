@@ -1,0 +1,247 @@
+{
+  "id": "3aabd067-81e0-4a40-aabc-37d531fe75cc",
+  "name": "smalltalk.greetings.nice_to_talk_to_you",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "smalltalk.greetings.nice_to_talk_to_you",
+      "affectedContexts": [],
+      "parameters": [],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "It sure was. We can chat again anytime.",
+            "I enjoy talking to you, too.",
+            "You know I'm here to talk anytime."
+          ]
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "it",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " ",
+          "userDefined": false
+        },
+        {
+          "text": "is nice",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " talking to you",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "b8d7187a-fcbb-433f-9bff-d2afd51f3192",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "nice",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " to talk to you",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "14adc64b-8605-4483-8736-9b818fe867f2",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "how ",
+          "userDefined": false
+        },
+        {
+          "text": "nice",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " ",
+          "userDefined": false
+        },
+        {
+          "text": "it",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " is to talk to you",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "3104d52d-0bf3-40bf-9f01-ec15003cb388",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "it's been so nice to talk to you",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "853163e0-d755-49b0-b71e-ce537e8cbb42",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "it's",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " ",
+          "userDefined": false
+        },
+        {
+          "text": "nice",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " to talk to you",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "4bb4460f-c4bf-47d0-be2f-01260fe7de83",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "nice",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " talking to you",
+          "userDefined": false
+        }
+      ],
+      "count": 1,
+      "id": "faf050f9-13e8-404f-a813-8ff8c03e2cee",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "it",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": "'",
+          "userDefined": false
+        },
+        {
+          "text": "s",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " ",
+          "userDefined": false
+        },
+        {
+          "text": "been",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " a ",
+          "userDefined": false
+        },
+        {
+          "text": "pleasure",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " ",
+          "userDefined": false
+        },
+        {
+          "text": "talking",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " ",
+          "userDefined": false
+        },
+        {
+          "text": "to",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " you",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "8ac6bebb-cefe-4246-9899-93ad594306e3",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

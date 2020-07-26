@@ -1,0 +1,139 @@
+{
+  "id": "462b6c5f-9a5b-4f4a-9d17-1db5af6d1b31",
+  "name": "smalltalk.user.has_birthday",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "smalltalk.user.has_birthday",
+      "affectedContexts": [],
+      "parameters": [],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "Happy Birthday. Well, this calls for a celebration.",
+            "Happy Birthday. All the best!",
+            "Happy Birthday. And I really mean it. All the best!"
+          ]
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "it's my b-day",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "eaceb8b1-052d-4d0a-965e-32f29e62d718",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "it",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " is my ",
+          "userDefined": false
+        },
+        {
+          "text": "birthday",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        }
+      ],
+      "count": 0,
+      "id": "26b190ec-556e-4c02-95a9-ec1c21958bf3",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "today",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " is my ",
+          "userDefined": false
+        },
+        {
+          "text": "birthday",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        }
+      ],
+      "count": 0,
+      "id": "d832ea02-c2bd-4b2d-ba67-9d955ad9ec78",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "I was born today",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "e52a26b5-81bb-4463-be95-ee8f30ab6487",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "it's my birthday today",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "ee2288a6-7e86-4695-bf56-d7ec167fc45f",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "I'm celebrating my birthday today",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "eff19d85-4d90-47e2-a6c6-f52625927225",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

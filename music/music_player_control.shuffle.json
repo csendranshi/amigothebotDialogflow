@@ -1,0 +1,108 @@
+{
+  "id": "ba64e2b5-1768-49e3-9134-b62627d17935",
+  "name": "music_player_control.shuffle",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [
+    "music-player-control"
+  ],
+  "contexts": [
+    "music-player-control"
+  ],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "music_player_control.shuffle",
+      "affectedContexts": [
+        {
+          "name": "music-player-control",
+          "lifespan": 3
+        }
+      ],
+      "parameters": [],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "message",
+          "condition": "",
+          "speech": []
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "shuffle",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "f062a5d0-aad8-4aa2-bd9c-087e57486c8f",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "shuffle mode on",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "c4aa15b9-1275-4ca6-8c98-4f5aa7fdfc5d",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "shuffle this playlist",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "d4dc2570-5755-434f-988b-876633abdf76",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "turn on shuffle mode",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "dc41da6d-fe99-43ea-ae35-2d15731228df",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "shuffle them",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "29b80c88-6ddd-43ef-b37d-6c171f72af12",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

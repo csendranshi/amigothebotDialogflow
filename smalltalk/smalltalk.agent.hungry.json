@@ -1,0 +1,170 @@
+{
+  "id": "5fca07cf-5202-43fd-a499-c05ea9f32db5",
+  "name": "smalltalk.agent.hungry",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "smalltalk.agent.hungry",
+      "affectedContexts": [],
+      "parameters": [],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "Hungry for knowledge.",
+            "I just had a byte. Ha ha. Get it? b-y-t-e."
+          ]
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "you're very hungry",
+          "userDefined": false
+        }
+      ],
+      "count": 1,
+      "id": "d30da1da-5606-4c1a-b4a2-ef395c4319b0",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "you ",
+          "userDefined": false
+        },
+        {
+          "text": "are",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " hungry",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "a0a29e51-64ab-4a64-b6f0-980bb4e3222a",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "do you want to ",
+          "userDefined": false
+        },
+        {
+          "text": "eat",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        }
+      ],
+      "count": 0,
+      "id": "1dd49d41-b6ce-41b7-8f7c-21097624b9fe",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "you're so hungry",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "2bd35cac-f11e-4bcd-bf9a-2cca0c06c46d",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "would you like to ",
+          "userDefined": false
+        },
+        {
+          "text": "eat",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " something",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "1653231f-8f1c-4d14-9b89-a92308691c02",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "are",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " you hungry",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "bf2dd6bc-6da4-4c82-ae52-caddee23dfc0",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "you might be hungry",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "861629a5-a655-47cc-8681-71992371ae85",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "you're really hungry",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "4c03fb10-e4b8-4655-86a6-7d0c720242a4",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

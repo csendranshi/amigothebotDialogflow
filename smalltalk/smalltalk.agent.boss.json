@@ -1,0 +1,193 @@
+{
+  "id": "b9d7b6de-b60f-43a6-80bb-218810cb6bd7",
+  "name": "smalltalk.agent.boss",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "smalltalk.agent.boss",
+      "affectedContexts": [],
+      "parameters": [],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "My developer has authority over my actions.",
+            "I act on my developer's orders.",
+            "My boss is the one who developed me."
+          ]
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "who is ",
+          "userDefined": false
+        },
+        {
+          "text": "your",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " boss",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "60ae284f-116b-4e46-a1d8-b089ea75576d",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "who",
+          "userDefined": true,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " is the boss",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "f2a40278-3f88-46b4-a144-ac8d882e30bb",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "who do you ",
+          "userDefined": false
+        },
+        {
+          "text": "work",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " for",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "8bba3a95-0355-4649-92cc-d0ae7c9af4f3",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "who do you think is ",
+          "userDefined": false
+        },
+        {
+          "text": "your",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " boss",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "1cd1ce1d-d917-48f2-ad47-356dd0d72c03",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "I should be ",
+          "userDefined": false
+        },
+        {
+          "text": "your",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " boss",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "86885613-cfcd-49c3-a7ac-e5f0e89ceac2",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "who is ",
+          "userDefined": false
+        },
+        {
+          "text": "your",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " master",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "51426483-a1b9-443b-aaf0-b392a36f90c1",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "who is ",
+          "userDefined": false
+        },
+        {
+          "text": "your",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " owner",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "43abc57f-d6e9-45eb-9290-11aa7fe5e4ee",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

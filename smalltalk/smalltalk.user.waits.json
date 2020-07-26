@@ -1,0 +1,102 @@
+{
+  "id": "cbb7fae0-115f-4890-a99d-30b166ecd197",
+  "name": "smalltalk.user.waits",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "smalltalk.user.waits",
+      "affectedContexts": [],
+      "parameters": [],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "I appreciate your patience. Hopefully I'll have what you need soon.",
+            "Thanks for being so patient. Sometimes these things take a little time."
+          ]
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "I'm waiting",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "2d682e54-42a3-4fe8-a96c-548e8abe9414",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "still waiting",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "51a07881-69fc-4fc4-8901-3b643886e4bf",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "I can't wait anymore",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "adaa833c-44af-4f71-a1df-1afa434758ad",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "how long do I have to wait",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "ff3aff77-93e6-4c90-adfd-8503b9f59f94",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "I'll wait",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "ec4153bf-0b1b-42c3-9856-514ed1ad9f2b",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

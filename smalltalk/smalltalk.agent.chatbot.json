@@ -1,0 +1,206 @@
+{
+  "id": "a9c31588-e1b6-4992-a514-6205f1a5870e",
+  "name": "smalltalk.agent.chatbot",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "smalltalk.agent.chatbot",
+      "affectedContexts": [],
+      "parameters": [],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "That's me. I chat, therefore I am.",
+            "Indeed I am. I'll be here whenever you need me."
+          ]
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "are",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " you a ",
+          "userDefined": false
+        },
+        {
+          "text": "bot",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        }
+      ],
+      "count": 0,
+      "id": "3ff759db-b7ac-4c29-b58d-6ab933b274f8",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "you ",
+          "userDefined": false
+        },
+        {
+          "text": "are",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " chatbot",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "9387ef8b-6d50-4d89-bfa1-2ab9e6c7dbf2",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "you ",
+          "userDefined": false
+        },
+        {
+          "text": "are",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " a ",
+          "userDefined": false
+        },
+        {
+          "text": "bot",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        }
+      ],
+      "count": 0,
+      "id": "824893cd-65e1-428b-921a-065be651d318",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "you're a robot",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "db7d3c8c-fd8b-42ef-96a2-3c5ea6f9d47a",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "are",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " you a chatbot",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "7f7b1d36-3011-4d2a-a09b-05a6b78e15a2",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "are",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " you a program",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "03f76387-e800-4cde-8e52-c71932504d5f",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "are",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " you just a ",
+          "userDefined": false
+        },
+        {
+          "text": "bot",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        }
+      ],
+      "count": 0,
+      "id": "c290f7c6-0e72-4cad-a21a-e8fa689c028d",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "are",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " you a robot",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "408e0d4e-1d5d-4913-939f-20d4f6f26446",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

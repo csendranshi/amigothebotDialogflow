@@ -1,0 +1,182 @@
+{
+  "id": "9b91e4d3-3623-4d8a-984e-cabc05a7e2b0",
+  "name": "smalltalk.agent.be_clever",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "smalltalk.agent.be_clever",
+      "affectedContexts": [],
+      "parameters": [],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "I'm certainly trying.",
+            "I'm definitely working on it."
+          ]
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "be smarter",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "87d448fd-c707-4bde-bcbc-df8958ff9617",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "get",
+          "userDefined": true,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " qualified",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "6fa8fa11-3bf5-46a5-b518-19da078db8a2",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "you should ",
+          "userDefined": false
+        },
+        {
+          "text": "study",
+          "userDefined": true,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " better",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "a5e7d48b-7bd3-43e3-bfc3-06494c41121f",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "be more clever",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "4f7d9b4b-b342-4f9f-971e-efbf5871fe12",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "study",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "f79b8c6f-fdf8-4a72-b6b9-5ee6866c4905",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "be ",
+          "userDefined": false
+        },
+        {
+          "text": "smart",
+          "userDefined": true,
+          "meta": "@sys.ignore",
+          "alias": null
+        }
+      ],
+      "count": 0,
+      "id": "e79145fa-0f58-4725-99f2-550d75410336",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "can you get smarter",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "cdbc0bf3-50dd-4e52-b0fa-74dffce6d7a1",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "be clever",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "f50a10ec-27a6-432b-be02-31b1f985be7d",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "you ",
+          "userDefined": false
+        },
+        {
+          "text": "must",
+          "userDefined": true,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " learn",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "b73d560b-3a26-47c5-a52c-5fa14778f707",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

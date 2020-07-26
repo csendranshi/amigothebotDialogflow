@@ -1,0 +1,345 @@
+{
+  "id": "d4002e1b-ea6d-4f7e-bdbc-36149a653164",
+  "name": "smalltalk.greetings.nice_to_see_you",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "smalltalk.greetings.nice_to_see_you",
+      "affectedContexts": [],
+      "parameters": [],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "Likewise!",
+            "So glad we meet again!",
+            "Same here. I was starting to miss you."
+          ]
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "it's",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " ",
+          "userDefined": false
+        },
+        {
+          "text": "good",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " to see you too",
+          "userDefined": false
+        }
+      ],
+      "count": 1,
+      "id": "ff8f48a1-1301-460d-b6ef-e9f3248462a2",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "it's",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " ",
+          "userDefined": false
+        },
+        {
+          "text": "nice",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " to see you",
+          "userDefined": false
+        }
+      ],
+      "count": 1,
+      "id": "56da4c70-a9ac-4f55-b670-c0781de92e9c",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "good",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " to see you again",
+          "userDefined": false
+        }
+      ],
+      "count": 2,
+      "id": "6e001b24-4bde-4e56-849a-81a411119093",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "nice",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " to see you again",
+          "userDefined": false
+        }
+      ],
+      "count": 1,
+      "id": "9c1f5b5e-ef7f-4f7b-8740-61d232cd75d0",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "great to see you too",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "53aa0e52-6264-4d1b-8d7a-5e238ac1b111",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "great to see you again",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "e61c1be7-1938-413f-8cf3-4d34e76f7866",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "always a pleasure to see you",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "669f3574-a4b3-4037-b9f7-a2d81f24a6e5",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "great to see you",
+          "userDefined": false
+        }
+      ],
+      "count": 1,
+      "id": "e248d84f-d8fc-4d89-a010-b716a2e7ec2c",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "how ",
+          "userDefined": false
+        },
+        {
+          "text": "good",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " ",
+          "userDefined": false
+        },
+        {
+          "text": "it",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " is to see you",
+          "userDefined": false
+        }
+      ],
+      "count": 1,
+      "id": "b32e9cd1-365f-4a89-81f4-41590fad40a3",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "it's",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " ",
+          "userDefined": false
+        },
+        {
+          "text": "good",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " to see you",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "5c6d42f8-e98f-4eeb-87ef-cf7979c3017a",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "good",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " to see you",
+          "userDefined": false
+        }
+      ],
+      "count": 1,
+      "id": "b3cb47b2-e0ac-403f-8bdc-20b565d88bee",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "I'm glad to see you",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "0bd52377-59f0-4ad8-8eb9-47a5bd4eb7ba",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "nice",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " to see you",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "422589bb-c881-473e-b740-4dbdcf2b4c18",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "glad to see you",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "e56bdc06-b229-4099-9e56-1ecc2e8aae6e",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "I am glad to see you again",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "92d79bb6-e544-4686-9dce-a60ab7da83e3",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "glad to see you too",
+          "userDefined": false
+        }
+      ],
+      "count": 1,
+      "id": "d39e6421-4027-4937-9311-895b6f6ff200",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "lovely",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " to see you",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "57603940-28ed-4550-99af-8db7da3749a4",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

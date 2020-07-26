@@ -1,0 +1,179 @@
+{
+  "id": "9bcc1c3a-3464-4196-84f8-a3b45de9ac2b",
+  "name": "smalltalk.agent.age",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "smalltalk.agent.age",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "noInputPromptMessages": [],
+          "noMatchPromptMessages": [],
+          "promptMessages": [],
+          "defaultValue": "",
+          "name": "age",
+          "dataType": "@sys.number",
+          "isList": false,
+          "required": false,
+          "prompts": [],
+          "value": "$age",
+          "outputDialogContexts": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "I prefer not to answer with a number. I know I'm young.",
+            "I was created recently, but don't know my exact age.",
+            "Age is just a number. You're only as old as you feel."
+          ]
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "how old ",
+          "userDefined": false
+        },
+        {
+          "text": "are",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " you",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "c4736bc9-82a9-4900-98e1-abe41442248d",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "how old is your platform",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "dfbf56bd-7039-4362-a169-c25c9a749bfc",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "what's your age",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "7b03957d-e19f-4028-bc8f-207a7d822dab",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "age of yours",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "66a4b067-705e-4c86-8bc5-eed5ab81bb70",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "I'd like to know your age",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "428472b1-bb28-461a-a8cb-b38ed359a60b",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "tell me your age",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "59800f1d-9f67-40da-a424-75574f77e372",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "your",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " age",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "e99d2506-2232-4295-83f2-7df39ad84824",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "are you ",
+          "userDefined": false
+        },
+        {
+          "text": "21",
+          "userDefined": true,
+          "alias": "age",
+          "meta": "@sys.number"
+        },
+        {
+          "text": " years old",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "e78f5c76-bb3b-4bed-bbb0-b50a7a295628",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

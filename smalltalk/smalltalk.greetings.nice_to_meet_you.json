@@ -1,0 +1,314 @@
+{
+  "id": "729df792-a954-45f0-b3ca-94697b62e932",
+  "name": "smalltalk.greetings.nice_to_meet_you",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "smalltalk.greetings.nice_to_meet_you",
+      "affectedContexts": [],
+      "parameters": [],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "It's nice meeting you, too.",
+            "Likewise. I'm looking forward to helping you out.",
+            "Nice meeting you, as well.",
+            "The pleasure is mine."
+          ]
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "it",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " was ",
+          "userDefined": false
+        },
+        {
+          "text": "nice",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " ",
+          "userDefined": false
+        },
+        {
+          "text": "meeting",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " you",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "a5d6dbd6-8e7a-4e41-9d25-10d0036062ea",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "nice",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " to ",
+          "userDefined": false
+        },
+        {
+          "text": "meet",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " you",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "9d30db67-f8f8-409a-96de-d1be8c3ce154",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "glad to ",
+          "userDefined": false
+        },
+        {
+          "text": "meet",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " you",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "6e3d6bc9-9cb1-41f1-8f33-d46207fa9881",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "it",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " was very ",
+          "userDefined": false
+        },
+        {
+          "text": "nice",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " to ",
+          "userDefined": false
+        },
+        {
+          "text": "meet",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " you",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "0ec5cab0-f6fd-4959-a97b-0863af99f02e",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "pleased to ",
+          "userDefined": false
+        },
+        {
+          "text": "meet",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " you",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "f24ba651-c9f6-47ed-b219-874e1dcc0e99",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "pleasure to ",
+          "userDefined": false
+        },
+        {
+          "text": "meet",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " you too",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "128ab64d-e259-4469-bbdd-aa04eceba6dc",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "good to know ",
+          "userDefined": false
+        },
+        {
+          "text": "each",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " other",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "985734fb-7075-4988-b72a-76ea9869c60c",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "nice",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " to ",
+          "userDefined": false
+        },
+        {
+          "text": "meet",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " you too",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "afb9c4a9-c0c2-4472-b354-94c062e86662",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "pleasure to ",
+          "userDefined": false
+        },
+        {
+          "text": "meet",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " you",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "9c1d7442-aba0-4f35-8fff-2512dd70d53a",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "nice",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " ",
+          "userDefined": false
+        },
+        {
+          "text": "meeting",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " you",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "3b6a2241-3ea4-4d1b-be96-e130baf4488f",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

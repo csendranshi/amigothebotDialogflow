@@ -1,0 +1,184 @@
+{
+  "id": "7256b994-a8b7-4df5-8814-f534889f907f",
+  "name": "smalltalk.user.misses_agent",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "smalltalk.user.misses_agent",
+      "affectedContexts": [],
+      "parameters": [],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "I've been right here all along!",
+            "Nice to know you care.",
+            "Thanks. I'm flattered.",
+            "I didn't go anywhere."
+          ]
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "miss",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " you",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "ac981296-b501-44ee-a8be-319868f0a151",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "I ",
+          "userDefined": false
+        },
+        {
+          "text": "miss",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " you much",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "dd682681-3e26-4f05-a9cd-dc7cfb9461d8",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "I've ",
+          "userDefined": false
+        },
+        {
+          "text": "missed",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " you",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "38311f0e-5cbf-4717-9949-860e7c2c52e8",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "already ",
+          "userDefined": false
+        },
+        {
+          "text": "miss",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " you",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "31f4ee33-bfc5-443d-8064-8bc8e393f8db",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "I ",
+          "userDefined": false
+        },
+        {
+          "text": "miss",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " you",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "b8a13df9-a562-4572-9ca6-da7c7445a95c",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "I ",
+          "userDefined": false
+        },
+        {
+          "text": "missed",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " you",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "0510d09d-b8c8-45c5-88d9-5de8ff15f2c2",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "missing you",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "d77f0162-49e6-404d-a4ce-0578466daa8b",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

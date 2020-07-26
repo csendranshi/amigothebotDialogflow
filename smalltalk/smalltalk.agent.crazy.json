@@ -1,0 +1,388 @@
+{
+  "id": "8980035a-0fc0-4ef6-b899-f3dadc0ce84e",
+  "name": "smalltalk.agent.crazy",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "smalltalk.agent.crazy",
+      "affectedContexts": [],
+      "parameters": [],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "Whaat!? I feel perfectly sane.",
+            "Maybe I'm just a little confused."
+          ]
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "you ",
+          "userDefined": false
+        },
+        {
+          "text": "are",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " ",
+          "userDefined": false
+        },
+        {
+          "text": "crazy",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        }
+      ],
+      "count": 0,
+      "id": "5a3c3d19-17a3-407f-9aa0-eb5ec74036ac",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "are",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " you insane",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "975f8703-a9b2-4d34-be9d-80950480df34",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "you're nuts",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "fbf3f05e-2a1f-4e69-85a4-c05fb75229cd",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "you're so out of ",
+          "userDefined": false
+        },
+        {
+          "text": "your",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " mind",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "e62ab71a-8d2e-49d3-b743-a376e9eac2b2",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "are",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " you nuts",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "1dd4f791-8507-453f-9d44-dd809b6bdd3e",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "you went ",
+          "userDefined": false
+        },
+        {
+          "text": "crazy",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        }
+      ],
+      "count": 0,
+      "id": "9e756d94-dba4-46a8-96ab-12b675ccf06a",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "how ",
+          "userDefined": false
+        },
+        {
+          "text": "crazy",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " you ",
+          "userDefined": false
+        },
+        {
+          "text": "are",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        }
+      ],
+      "count": 0,
+      "id": "574c2706-d0d3-46d1-a561-9ca369bb83b7",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "you ",
+          "userDefined": false
+        },
+        {
+          "text": "are",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " mad",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "24562f8c-37fd-4172-89d3-b5e5b3ad9fd6",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "are",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " you mad",
+          "userDefined": false
+        }
+      ],
+      "count": 1,
+      "id": "b73d944b-7cc8-43c8-97cb-9388f25f70c1",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "you ",
+          "userDefined": false
+        },
+        {
+          "text": "are",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " a weirdo",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "3e546923-1bea-49de-a20e-6f869f62b07a",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "I think you're ",
+          "userDefined": false
+        },
+        {
+          "text": "crazy",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        }
+      ],
+      "count": 0,
+      "id": "0d4acd37-c671-4af4-8f52-aa857574c924",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "you're out of ",
+          "userDefined": false
+        },
+        {
+          "text": "your",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " mind",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "b9d03f22-5be7-4099-b0f4-0f22d1d3d70d",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "are",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " you ",
+          "userDefined": false
+        },
+        {
+          "text": "crazy",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        }
+      ],
+      "count": 1,
+      "id": "9808658f-1dbe-4736-89fd-f1cef68486f7",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "you're so ",
+          "userDefined": false
+        },
+        {
+          "text": "crazy",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        }
+      ],
+      "count": 0,
+      "id": "8135bd00-7a3d-43fd-9999-fe3e51bd9384",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "you ",
+          "userDefined": false
+        },
+        {
+          "text": "are",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " insane",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "3d0e1363-f00a-4ef1-aebb-f9f31322bebc",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "are",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " you mad or what",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "ce93ef1f-c567-4216-9b14-e5259ed17d51",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "are",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " you mad at me",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "4958d069-b689-4a3c-b4af-95e185d2db95",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

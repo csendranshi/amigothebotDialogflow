@@ -1,0 +1,136 @@
+{
+  "id": "cf87bf9a-8a5e-4470-abe0-3aed0b8b1cbb",
+  "name": "smalltalk.user.angry",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "smalltalk.user.angry",
+      "affectedContexts": [],
+      "parameters": [],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "I'm sorry. A quick walk may make you feel better.",
+            "Take a deep breath. "
+          ]
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "I'",
+          "userDefined": false
+        },
+        {
+          "text": "m",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " enraged",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "f9fe1ba5-a51c-4268-9edb-1206e5e6b3a9",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "I am mad",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "e905ae4c-df32-47be-8a03-6007fe160fd7",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "I'm angry",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "707416ce-915e-4c2b-ba96-ea7752d4da42",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "I'm furious",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "c4f1a421-b286-4e6d-bde5-e9c4d5ea95cb",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "I am angry with you",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "a0a3284f-c4ac-4318-8988-c4d09c63d36d",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "I am mad at you",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "44b2082e-0bf9-4d55-9f24-6f4ccab7e5ec",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "I'm being mad",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "926c59e2-0ce8-452c-be32-a0a18bd2f840",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

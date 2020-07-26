@@ -1,0 +1,163 @@
+{
+  "id": "2fb086ee-0ea3-42f0-be76-7a5e6e6255b5",
+  "name": "smalltalk.dialog.hold_on",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "smalltalk.dialog.hold_on",
+      "affectedContexts": [],
+      "parameters": [],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "I can wait.",
+            "I'll be waiting.",
+            "Okay. I'm here."
+          ]
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "hold ",
+          "userDefined": false
+        },
+        {
+          "text": "on",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        }
+      ],
+      "count": 0,
+      "id": "ef7e58fb-8c55-4157-8d82-a3d7178a7558",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "could you wait",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "d1f6a684-d48e-4be7-b182-ace9c4a90726",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "don",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": "'t ",
+          "userDefined": false
+        },
+        {
+          "text": "rush",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        }
+      ],
+      "count": 0,
+      "id": "554425d1-e25b-4adb-a60d-f9b1d94b3a18",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "oh wait",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "4bac70de-bbe5-4332-8665-fa5eead6a366",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "wait a second",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "1d30c73f-961f-457b-8002-6ffee27e8890",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "wait please",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "1a996d9d-1ed9-4ea5-8b99-4b84e8833334",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "wait hold ",
+          "userDefined": false
+        },
+        {
+          "text": "on",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        }
+      ],
+      "count": 0,
+      "id": "21348e32-ca6e-4e85-8fec-eeae7a35f068",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "wait",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "9bcf6916-5e38-45ef-87b7-8f15d82f3851",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

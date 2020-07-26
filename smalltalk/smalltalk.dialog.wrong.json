@@ -1,0 +1,199 @@
+{
+  "id": "a5bd1168-b547-43de-886c-dea97ee9e958",
+  "name": "smalltalk.dialog.wrong",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "smalltalk.dialog.wrong",
+      "affectedContexts": [],
+      "parameters": [],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "Sorry if I understood you incorrectly.",
+            "I'm still learning. I may misinterpret things from time to time.",
+            "Sorry about that. I'm still learning."
+          ]
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "that was wrong",
+          "userDefined": false
+        }
+      ],
+      "count": 2,
+      "id": "a22789bc-534b-427e-a090-8f928cedb99b",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "wrong",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "7fd1a7f9-01ad-476b-9420-1697b1cfe5cd",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "that is incorrect",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "de583c36-a47e-4e3d-9e3c-bf04930e6bc7",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "that's wrong",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "8a7f1a9b-41ad-400e-9053-e9ef41b78a36",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "it",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " is not right",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "644437ff-3921-4458-ad59-60fb036dfed6",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "not right",
+          "userDefined": false
+        }
+      ],
+      "count": 1,
+      "id": "9c77d13e-4829-4bb9-874f-3106a8861274",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "not correct",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "6b11de32-ea77-465d-8075-52d46474268f",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "it",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": "'s wrong",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "96f164a1-e338-40e1-9dda-0bb90f019d9e",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "that's not what I asked",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "788a076d-230d-4fef-ab49-cbd3ee347ce8",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "incorrect",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "2c150dc7-381d-49a0-9b00-c8dcf2c2d1bb",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "you are wrong",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "754b6e37-99c0-427f-b358-9e1729eb7380",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "that's not right",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "fcf87992-7d0d-4c47-a67b-63643ca81eeb",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

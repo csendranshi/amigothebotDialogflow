@@ -1,0 +1,189 @@
+{
+  "id": "19b87423-bd38-4ef5-a93a-351c001596b3",
+  "name": "smalltalk.appraisal.welcome",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "smalltalk.appraisal.welcome",
+      "affectedContexts": [],
+      "parameters": [],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "You're so polite!",
+            "Nice manners!",
+            "You're so courteous!"
+          ]
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "welcome",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " ",
+          "userDefined": false
+        },
+        {
+          "text": "here",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        }
+      ],
+      "count": 0,
+      "id": "73ed70d0-8808-41ce-b673-f09960411808",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "anytime",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "a127955f-63cf-433a-8850-4981a22b916f",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "sure",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " ",
+          "userDefined": false
+        },
+        {
+          "text": "welcome",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        }
+      ],
+      "count": 0,
+      "id": "796a7a28-21c5-42a0-81cc-24e00908fbc5",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "you're so ",
+          "userDefined": false
+        },
+        {
+          "text": "welcome",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        }
+      ],
+      "count": 0,
+      "id": "2ebc49b8-f3fd-4a74-b795-778c75f12423",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "anything you want",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "c6ceedaa-2bfc-40d4-aead-6e2613193b11",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "that's my pleasure",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "acce4910-14c8-41f7-ad61-5f0e31a841c9",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "welcome",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        }
+      ],
+      "count": 0,
+      "id": "855bca07-2f34-4738-909a-7cfa10c09a82",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "my pleasure",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "16dab568-b307-41c3-978a-dfa153ccf5c0",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "you're ",
+          "userDefined": false
+        },
+        {
+          "text": "welcome",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        }
+      ],
+      "count": 0,
+      "id": "3fa95925-840c-4bb3-a53b-ec60af9a1f3f",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

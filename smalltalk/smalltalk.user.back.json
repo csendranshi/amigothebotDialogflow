@@ -1,0 +1,117 @@
+{
+  "id": "2004e62b-ef95-4ab8-8c50-18d8d20b3f27",
+  "name": "smalltalk.user.back",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "smalltalk.user.back",
+      "affectedContexts": [],
+      "parameters": [],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "Long time no see. What's up?",
+            "Just in time. How can I help?",
+            "Welcome back. What can I do for you?",
+            "You were missed. What can I do for you today?",
+            "Good to have you here. What can I do for you?"
+          ]
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "I have returned",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "9aae99d0-47f5-47c8-b1e1-77f2fa2ad1bb",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "I am back",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "900da8ee-b301-4aa9-8734-add7c43c7d46",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "I'm here again",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "d532e5e4-e745-4768-8b94-bfadf75b6154",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "I got back",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "9b96b21d-5c6d-4f71-930b-cd98081781a7",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "here I am again",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "caa14813-375e-4809-9935-0528590323eb",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "I came back",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "9285a3c4-c2e8-40b4-bb3b-f2945e19dbc3",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

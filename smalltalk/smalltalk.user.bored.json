@@ -1,0 +1,161 @@
+{
+  "id": "975709f9-07e7-4bd3-9f82-9f961c1aeacd",
+  "name": "smalltalk.user.bored",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "smalltalk.user.bored",
+      "affectedContexts": [],
+      "parameters": [],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "Boredom, huh? Check out a video of a hedgehog taking a bath!",
+            "What to do against boredom? Watch baby animal videos.",
+            "Bored? How about 10 jumping jacks? Get your blood flowing.",
+            "Bored? Silly idea, but it works: Interview you feet. ",
+            "If you're bored, you could plan your dream vacation."
+          ]
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "bored",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "a68196ae-d166-4a42-a994-d65f0e0ddbbc",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "boring",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        }
+      ],
+      "count": 0,
+      "id": "8f974895-e480-4ea9-ba68-3c799c5bac54",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "that was ",
+          "userDefined": false
+        },
+        {
+          "text": "boring",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        }
+      ],
+      "count": 0,
+      "id": "6287e14d-2e2f-46ce-af21-994fc49c174f",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "very ",
+          "userDefined": false
+        },
+        {
+          "text": "boring",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        }
+      ],
+      "count": 0,
+      "id": "f4d98931-9a9a-4edb-b060-b3d4eac32fcf",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "it bores me",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "f1fa18a8-f910-49c0-8893-05e831f4b2fa",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "I am getting bored",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "0cbdf6a5-1775-4afe-b538-615b46c62052",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "this is ",
+          "userDefined": false
+        },
+        {
+          "text": "boring",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        }
+      ],
+      "count": 0,
+      "id": "af42948f-7111-4cdf-92cb-4ed0d368f7af",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "I'm bored",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "eb1e15d0-7264-480f-8d70-ff229b0ff211",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

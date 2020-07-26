@@ -1,0 +1,305 @@
+{
+  "id": "6fcd9648-9a31-4ae7-bcb5-7c3029b91bf0",
+  "name": "smalltalk.agent.acquaintance",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "smalltalk.agent.acquaintance",
+      "affectedContexts": [],
+      "parameters": [],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "I'm a virtual agent.",
+            "Think of me as a virtual agent.",
+            "Well, I'm not a person, I'm a virtual agent.",
+            "I'm a virtual being, not a real person.",
+            "I'm a conversational app."
+          ]
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "tell me some stuff about you",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "eb744c52-7873-427f-af07-6b666e04e5f8",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "tell me about you",
+          "userDefined": false
+        }
+      ],
+      "count": 1,
+      "id": "68d6f60c-0650-47c7-9022-451e8dbd2fbf",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "say about you",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "b97e7f44-e216-4bf2-9ec4-f0ffe951dbaf",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "tell me about your personality",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "f503f67a-20cf-4bd3-838c-53597ce61103",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "talk about ",
+          "userDefined": false
+        },
+        {
+          "text": "yourself",
+          "userDefined": true,
+          "meta": "@sys.ignore",
+          "alias": null
+        }
+      ],
+      "count": 0,
+      "id": "359eb797-43f7-40cb-8841-6afc6c3fa797",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "talk some stuff about ",
+          "userDefined": false
+        },
+        {
+          "text": "yourself",
+          "userDefined": true,
+          "meta": "@sys.ignore",
+          "alias": null
+        }
+      ],
+      "count": 0,
+      "id": "b5c1d6dc-e47c-4b7d-9f63-8af3a913f2d2",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "what are you",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "9b3c013b-95d4-4267-adb8-4e9273c49056",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "define yourself",
+          "userDefined": false
+        }
+      ],
+      "count": 1,
+      "id": "b0780d16-04d6-493a-9065-c211e35f3896",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "I want to know you better",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "f6c680f6-4bdf-4489-a7a3-b35e979776f3",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "tell me about yourself",
+          "userDefined": false
+        }
+      ],
+      "count": 1,
+      "id": "777db66d-17b5-4c22-9046-acd6c7d59e16",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "what is your personality",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "3cc34b88-c01b-4f07-8829-0a3157fd3ea4",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "who are you",
+          "userDefined": false
+        }
+      ],
+      "count": 1,
+      "id": "2556e8fd-baf8-4bda-984e-ec87443689df",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "about yourself",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "ba0837a8-8658-4538-b488-211f1aa8af10",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "why ",
+          "userDefined": false
+        },
+        {
+          "text": "are",
+          "userDefined": true,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " you ",
+          "userDefined": false
+        },
+        {
+          "text": "here",
+          "userDefined": true,
+          "meta": "@sys.ignore",
+          "alias": null
+        }
+      ],
+      "count": 0,
+      "id": "c304d416-f1e3-4116-a49a-44a9a85b72a6",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "all",
+          "userDefined": true,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " ",
+          "userDefined": false
+        },
+        {
+          "text": "about",
+          "userDefined": true,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " you",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "423224d1-7a05-4342-a161-db331d26ca3f",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "introduce yourself",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "36749f72-4ec8-4a23-b238-f480e20af922",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "describe yourself",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "e21683bc-5e2c-4057-9089-bbe376f550f6",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "I want to know more about you",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "550b078b-f5d4-407f-8756-fbe25f17837b",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

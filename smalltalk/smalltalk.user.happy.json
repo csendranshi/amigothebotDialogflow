@@ -1,0 +1,172 @@
+{
+  "id": "ba2d33f9-722d-4a30-9653-45db06039d04",
+  "name": "smalltalk.user.happy",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "smalltalk.user.happy",
+      "affectedContexts": [],
+      "parameters": [],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "Hey, happiness is contagious.",
+            "Great! Glad to hear that.",
+            "If you're happy, then I'm happy.",
+            "Excellent! That's what I like to see."
+          ]
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "happy",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        }
+      ],
+      "count": 0,
+      "id": "385df986-0c28-4549-9a5b-003fce8cd0ec",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "if you're ",
+          "userDefined": false
+        },
+        {
+          "text": "happy",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " then I'm ",
+          "userDefined": false
+        },
+        {
+          "text": "happy",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        }
+      ],
+      "count": 0,
+      "id": "698dea70-7a03-4416-ba42-3d62002440fa",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "I'm happy to see you",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "837010e0-5381-440c-bea8-9f0d3e4da2cb",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "I'm happy to help",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "ddc27bdb-0d6f-4f40-8b60-4393823bd3ec",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "I am ",
+          "userDefined": false
+        },
+        {
+          "text": "happy",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        }
+      ],
+      "count": 0,
+      "id": "540e7345-c882-4e55-a9c3-0dda95aecdfa",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "I'm ",
+          "userDefined": false
+        },
+        {
+          "text": "happy",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " to see you",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "a0e5b990-8a17-4617-b1b7-ae028aa802ff",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "I'm ",
+          "userDefined": false
+        },
+        {
+          "text": "happy",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " for you",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "196cdde6-abf0-469c-bbb7-f134caf224c5",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

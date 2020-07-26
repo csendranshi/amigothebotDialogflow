@@ -1,0 +1,297 @@
+{
+  "id": "75e6d4e4-d79e-4d3a-b7dc-b1d4a1cd2ead",
+  "name": "smalltalk.greetings.hello",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "smalltalk.greetings.hello",
+      "affectedContexts": [],
+      "parameters": [],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "Hi there, friend!",
+            "Hi!",
+            "Hey!",
+            "Hey there!",
+            "Good day!",
+            "Hello!",
+            "Greetings!"
+          ]
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "afternoon",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "a28cc7ef-d79d-4061-a586-b8b8324aa7f6",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "hello there",
+          "userDefined": false
+        }
+      ],
+      "count": 1,
+      "id": "4dffbd26-7455-4a99-967e-539166ce7b5e",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "hi",
+          "userDefined": true,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " there",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "49b3eaec-991a-4e66-a0f4-f8cc0eae90e8",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "hello hi",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "2ec49963-c389-4e6c-bf32-8fd4a9333b61",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "hey",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "87133287-bf1f-475d-9f7c-b1fdfd69e223",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "I greet you",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "d3a6da38-c215-46f8-8052-19cf3e9f9417",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "lovely",
+          "userDefined": true,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " ",
+          "userDefined": false
+        },
+        {
+          "text": "day",
+          "userDefined": true,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " isn't ",
+          "userDefined": false
+        },
+        {
+          "text": "it",
+          "userDefined": true,
+          "meta": "@sys.ignore",
+          "alias": null
+        }
+      ],
+      "count": 0,
+      "id": "984b97c6-329f-4ee0-bc4a-648997d778d8",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "howdy",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "10e87b4e-0734-4d30-ab5f-db6b847ab6db",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "hi there",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "c8139ef4-3d80-4825-9dd8-9db972bf288e",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "hi",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "b0b4211c-36a6-4f8f-9c3f-3790362b33f8",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "hey there",
+          "userDefined": false
+        }
+      ],
+      "count": 1,
+      "id": "8a038de3-391c-4c69-b10e-a8aa24bb6680",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "heya",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "e0dc94fc-0b29-4f25-a28d-b8f9be768d75",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "just going to say hi",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "83d96cd1-0dd1-4737-8882-7b5ae3991008",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "hello again",
+          "userDefined": false
+        }
+      ],
+      "count": 1,
+      "id": "7751f372-8fe6-47cf-91c3-2a3b82c1fa48",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "greetings",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "78120d6b-a833-4b70-989f-2e18e8ab1cd8",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "long",
+          "userDefined": true,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " time no see",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "b52d8acf-acd6-4385-bcf2-c3295655465a",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "a good day",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "fd897363-a722-4fee-bdc3-e395e6038ba8",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "hello",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "c08913ed-439e-4cfa-aa76-2f51ffa939eb",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

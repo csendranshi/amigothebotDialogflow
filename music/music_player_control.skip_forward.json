@@ -1,0 +1,628 @@
+{
+  "id": "8e86a17e-f7fb-4aa0-b00f-78b46c9b8cf8",
+  "name": "music_player_control.skip_forward",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [
+    "music-player-control"
+  ],
+  "contexts": [
+    "music-player-control"
+  ],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "music_player_control.skip_forward",
+      "affectedContexts": [
+        {
+          "name": "music-player-control",
+          "lifespan": 3
+        }
+      ],
+      "parameters": [],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "message",
+          "condition": "",
+          "speech": []
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "skip ",
+          "userDefined": false
+        },
+        {
+          "text": "next",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        }
+      ],
+      "count": 0,
+      "id": "60adb3ca-c0f1-43e7-ad4d-23f02aa12d8c",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "next",
+          "userDefined": true,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " please",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "94c6db7b-1310-4e34-bdff-1ca7c1124990",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "skip to ",
+          "userDefined": false
+        },
+        {
+          "text": "next",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        }
+      ],
+      "count": 0,
+      "id": "996661bd-34e4-4685-b858-5cca265a5126",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "play another ",
+          "userDefined": false
+        },
+        {
+          "text": "one",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        }
+      ],
+      "count": 0,
+      "id": "3f5949de-14ab-424a-b576-0c7bd6848e9b",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "skip ",
+          "userDefined": false
+        },
+        {
+          "text": "to",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " the ",
+          "userDefined": false
+        },
+        {
+          "text": "next",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " ",
+          "userDefined": false
+        },
+        {
+          "text": "one",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        }
+      ],
+      "count": 0,
+      "id": "a92593f0-af09-45d2-9202-619cec4d1be7",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "now the ",
+          "userDefined": false
+        },
+        {
+          "text": "next",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " ",
+          "userDefined": false
+        },
+        {
+          "text": "one",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        }
+      ],
+      "count": 0,
+      "id": "e64d283a-b638-473c-8585-ce1f1a0827d3",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "what'",
+          "userDefined": false
+        },
+        {
+          "text": "s",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " the ",
+          "userDefined": false
+        },
+        {
+          "text": "next",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " ",
+          "userDefined": false
+        },
+        {
+          "text": "song",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        }
+      ],
+      "count": 0,
+      "id": "67ae70ee-ea86-4e0a-836d-01b079a62189",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "go to the ",
+          "userDefined": false
+        },
+        {
+          "text": "next",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " ",
+          "userDefined": false
+        },
+        {
+          "text": "one",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        }
+      ],
+      "count": 0,
+      "id": "9234101d-688f-4a38-bd9e-44c1ed31814a",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "what'",
+          "userDefined": false
+        },
+        {
+          "text": "s",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " the ",
+          "userDefined": false
+        },
+        {
+          "text": "next",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " ",
+          "userDefined": false
+        },
+        {
+          "text": "one",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        }
+      ],
+      "count": 0,
+      "id": "fd01ad70-f60d-4e0b-b1d6-398b565f1823",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "go to the ",
+          "userDefined": false
+        },
+        {
+          "text": "next",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        }
+      ],
+      "count": 0,
+      "id": "905735a2-f5b2-4500-b556-792439e40991",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "next",
+          "userDefined": true,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " song",
+          "userDefined": false
+        }
+      ],
+      "count": 1,
+      "id": "489dc789-58b5-49aa-bff6-de879840bea5",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "play ",
+          "userDefined": false
+        },
+        {
+          "text": "next",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " track",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "43db3605-0190-4e71-a4cd-513ac165252d",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "the",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " following song",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "a8084748-a328-49ae-9e25-14e9ffd84d32",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "play the ",
+          "userDefined": false
+        },
+        {
+          "text": "next",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " ",
+          "userDefined": false
+        },
+        {
+          "text": "one",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        }
+      ],
+      "count": 0,
+      "id": "e95965fe-d2e9-44d0-b3b4-44dc85aff711",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "what's",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " ",
+          "userDefined": false
+        },
+        {
+          "text": "next",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        }
+      ],
+      "count": 0,
+      "id": "56bf5118-fdbc-4975-8701-0fc124cf992e",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "next",
+          "userDefined": true,
+          "meta": "@sys.ignore",
+          "alias": null
+        }
+      ],
+      "count": 0,
+      "id": "187b59de-0185-49c0-9e12-1d7b367fe58c",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "next",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " ",
+          "userDefined": false
+        },
+        {
+          "text": "track",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        }
+      ],
+      "count": 0,
+      "id": "7ac8c8e6-b58a-4282-8eae-344328f04056",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "the ",
+          "userDefined": false
+        },
+        {
+          "text": "next",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " please",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "9af4234c-ee04-40bc-8390-001d7288c5b7",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "skip ",
+          "userDefined": false
+        },
+        {
+          "text": "forward",
+          "userDefined": true,
+          "meta": "@sys.ignore",
+          "alias": null
+        }
+      ],
+      "count": 0,
+      "id": "f5758b8f-63df-4674-96a9-d95105942f81",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "other",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "012a7171-bf7e-491c-8f14-a8886cdc065b",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "skip",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "de69f894-6105-44cc-8089-c34e976fb548",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "go ",
+          "userDefined": false
+        },
+        {
+          "text": "forward",
+          "userDefined": true,
+          "meta": "@sys.ignore",
+          "alias": null
+        }
+      ],
+      "count": 0,
+      "id": "26587f21-8744-4b5d-a45a-ccea5602a3d5",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "skip this ",
+          "userDefined": false
+        },
+        {
+          "text": "song",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        }
+      ],
+      "count": 0,
+      "id": "9eeba53a-2f21-42d8-b4d3-2442092c3637",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "play ",
+          "userDefined": false
+        },
+        {
+          "text": "the",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " ",
+          "userDefined": false
+        },
+        {
+          "text": "next",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " song",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "03e90619-b055-44fa-8834-031260de84c8",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "play ",
+          "userDefined": false
+        },
+        {
+          "text": "next",
+          "userDefined": true,
+          "meta": "@sys.ignore",
+          "alias": null
+        }
+      ],
+      "count": 0,
+      "id": "d67fb68a-0436-49a8-b9b8-6bebdc674588",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "the ",
+          "userDefined": false
+        },
+        {
+          "text": "next",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " song",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "72bb7d51-270a-447b-8bf1-f1ec6460b744",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

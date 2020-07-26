@@ -1,0 +1,200 @@
+{
+  "id": "c4c8272c-3e33-411d-b2e3-65df0da10a04",
+  "name": "smalltalk.dialog.i_do_not_care",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "smalltalk.dialog.i_do_not_care",
+      "affectedContexts": [],
+      "parameters": [],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "Ok, let's not talk about it then.",
+            "Already then. Let's move on."
+          ]
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "I shouldn't care about this",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "30b52437-9097-4c1b-b77d-b36b850aa712",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "I ",
+          "userDefined": false
+        },
+        {
+          "text": "don't",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " care",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "1a7bf40b-13d4-4b36-b9ba-b7a64199ef8b",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "I do not care",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "a3c911ae-4b1f-449b-a5ce-19045827991d",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "whatever",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "5085a611-a72e-4a1e-8e0b-8e5b505c24ce",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "not caring",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "97f29eaf-fb4f-4623-8798-eea4bc7b3284",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "don",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": "'t care at ",
+          "userDefined": false
+        },
+        {
+          "text": "all",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        }
+      ],
+      "count": 0,
+      "id": "e30df01f-13ad-46eb-b00f-cdf9c5b62388",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "I ",
+          "userDefined": false
+        },
+        {
+          "text": "don",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": "'t care at ",
+          "userDefined": false
+        },
+        {
+          "text": "all",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        }
+      ],
+      "count": 0,
+      "id": "e78ed605-b9ec-4c75-85e7-912ccc6719d7",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "not care at ",
+          "userDefined": false
+        },
+        {
+          "text": "all",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        }
+      ],
+      "count": 0,
+      "id": "f4acf504-0d29-4448-8ab2-fb3f4c8c4d2d",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "not caring at ",
+          "userDefined": false
+        },
+        {
+          "text": "all",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        }
+      ],
+      "count": 0,
+      "id": "49772399-7751-4a99-bbce-671fdf6e4de2",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

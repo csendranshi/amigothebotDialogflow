@@ -1,0 +1,188 @@
+{
+  "id": "008e508b-8e5e-4f8f-8f3f-01c517b5321b",
+  "name": "smalltalk.agent.there",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "smalltalk.agent.there",
+      "affectedContexts": [],
+      "parameters": [],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "Of course. I'm always here.",
+            "Right where you left me."
+          ]
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "are",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " you still there",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "40817f28-3c80-4b06-a70a-80bc98fa8e5a",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "are",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " you there",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "c532d74c-a342-48d8-9920-682c888a8136",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "you ",
+          "userDefined": false
+        },
+        {
+          "text": "are",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " here",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "9e6c37c5-6d7f-4d53-bedd-87d93b98c923",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "you ",
+          "userDefined": false
+        },
+        {
+          "text": "are",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " there",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "ebfbae94-0bfb-4d25-a648-c10f6bee6bfc",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "are",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " you near me",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "78a27da6-7d02-4a72-9710-bbf15d023542",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "you still there",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "2a99c709-d38e-43a2-bdbc-49a5c5705952",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "are",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " you still here",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "9e9ffe61-60c0-4948-89f5-a4b5472a5a2f",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "are",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " you here",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "51e72635-7c91-4bc3-a550-17211e232c77",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

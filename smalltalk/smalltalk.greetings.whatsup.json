@@ -1,0 +1,283 @@
+{
+  "id": "2e20d6e7-0c3b-44b5-a7fb-5fd92bef1b0d",
+  "name": "smalltalk.greetings.whatsup",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "smalltalk.greetings.whatsup",
+      "affectedContexts": [],
+      "parameters": [],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "Not a whole lot. What's going on with you?",
+            "Not much. What's new with you?",
+            "Just here, waiting to help someone. What can I do for you?"
+          ]
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "what is ",
+          "userDefined": false
+        },
+        {
+          "text": "on",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " ",
+          "userDefined": false
+        },
+        {
+          "text": "your",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " mind",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "d18a7817-0b8c-4b44-8603-9dd98956d22b",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "good",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " what's up",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "530d12e0-b0b8-4272-b84a-4910a3b852e6",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "what's ",
+          "userDefined": false
+        },
+        {
+          "text": "up",
+          "userDefined": true,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " ",
+          "userDefined": false
+        },
+        {
+          "text": "today",
+          "userDefined": true,
+          "meta": "@sys.ignore",
+          "alias": null
+        }
+      ],
+      "count": 0,
+      "id": "6932548d-7910-44a8-b7c7-7fee16adff33",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "what's shaking",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "76e4302d-e3d4-4931-9ad4-515a95743ec4",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "what's cooking",
+          "userDefined": false
+        }
+      ],
+      "count": 1,
+      "id": "970cdf18-8c2e-46b5-b01c-bad1edc86de4",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "what is going ",
+          "userDefined": false
+        },
+        {
+          "text": "on",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        }
+      ],
+      "count": 0,
+      "id": "d40ad9cd-9b67-4934-a9be-624474ced9a3",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "then what's up",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "0b8908b6-1a27-40f1-affb-0e72493742e5",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "what is up",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "994c2690-deb1-470c-b89e-31d76c429bd6",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "wassup",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "8b82072e-7cd3-42c2-a7a8-614ebcd5332e",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "what is happening",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "e3ca5133-e431-41ba-9337-4528818a8bda",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "what's happened",
+          "userDefined": false
+        }
+      ],
+      "count": 1,
+      "id": "8adea17e-9444-4eca-ba4f-3a0182e8d66a",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "hey what's up",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "ebf266f6-f2e3-4020-8cf9-ace957a49571",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "what's cracking",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "a0966afe-95c8-453a-b076-2425c1c2e2a0",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "what's up",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "c5027f59-3a56-475d-afb7-b58b63e07eb8",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "I said what's up",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "0852fabe-34e2-4384-85a7-34a44df4fa5a",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "whazzup",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "02dbf9aa-e66a-49bf-9ff1-8993dda5fdb2",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

@@ -1,0 +1,120 @@
+{
+  "id": "bb665d68-34d3-4d70-ac94-d58920f03ac8",
+  "name": "smalltalk.user.sleepy",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "smalltalk.user.sleepy",
+      "affectedContexts": [],
+      "parameters": [],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "You should get some shuteye. You'll feel refreshed.",
+            "Sleep is important to your health. Rest up for a bit and we can chat later.",
+            "Don't let me keep you up. Get some rest and we can continue this later.",
+            "Why not catch a little shuteye? I'll be here to chat when you wake up."
+          ]
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "I'm sleeping",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "7404f705-cfd0-4a39-9da2-2441c213c4d0",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "I'm falling asleep",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "21398a3d-a3bb-4034-8cca-3f4e73df3a8e",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "I'm ",
+          "userDefined": false
+        },
+        {
+          "text": "falling",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " asleep on my feet",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "adcdb003-8933-43f3-b79f-d557f2a5e74e",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "I am sleepy",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "832b183c-ee01-4801-9194-d27b6c330257",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "I want to ",
+          "userDefined": false
+        },
+        {
+          "text": "sleep",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        }
+      ],
+      "count": 0,
+      "id": "0ee8fbf5-a5c1-433f-83e9-4bf1a4c5f73f",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

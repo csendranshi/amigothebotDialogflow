@@ -1,0 +1,344 @@
+{
+  "id": "5d394683-b7e5-4b44-9ee3-4e823c2adce8",
+  "name": "smalltalk.emotions.ha_ha",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "smalltalk.emotions.ha_ha",
+      "affectedContexts": [],
+      "parameters": [],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "Glad I can make you laugh.",
+            "Glad you think I'm funny.",
+            "I like it when people laugh.",
+            "I wish I could laugh out loud, too."
+          ]
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "ha ha ha",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "00e0de7d-786b-4e44-b814-bbf82de7e41d",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "hahaha very ",
+          "userDefined": false
+        },
+        {
+          "text": "funny",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        }
+      ],
+      "count": 0,
+      "id": "ba4d5702-d081-4025-90a6-b162ff2f6a38",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "laughing out ",
+          "userDefined": false
+        },
+        {
+          "text": "loud",
+          "userDefined": true,
+          "meta": "@sys.ignore",
+          "alias": null
+        }
+      ],
+      "count": 0,
+      "id": "26bcc3bf-c480-4723-bf0c-c3ec7ac6db50",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "hah",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "16bfd0eb-6d82-40af-ba84-e425763651f8",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "LMAO",
+          "userDefined": false
+        }
+      ],
+      "count": 1,
+      "id": "3360b6ed-39ed-4018-932a-5a9457c2fcdb",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "ahah",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "f093507d-be36-42f8-87f1-1fd18f54e98f",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "xd",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "3af31992-873a-4062-b584-0cd4704d8b0f",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "haha haha haha",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "3a0b6ceb-d803-477e-bb6b-4dc6cbc73791",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "that's ",
+          "userDefined": false
+        },
+        {
+          "text": "funny",
+          "userDefined": true,
+          "meta": "@sys.ignore",
+          "alias": null
+        }
+      ],
+      "count": 0,
+      "id": "5734111c-ebd5-49c6-bf4c-a8cd76d0ceb8",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "haha very ",
+          "userDefined": false
+        },
+        {
+          "text": "funny",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        }
+      ],
+      "count": 0,
+      "id": "6745a521-73fb-4d67-bd56-86fb1bb0fc97",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "ahaha",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "e5e0aa73-960f-4f47-8cba-17d487132a2f",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "hahaha ",
+          "userDefined": false
+        },
+        {
+          "text": "funny",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        }
+      ],
+      "count": 0,
+      "id": "ed1e9afe-45d1-4fb5-adca-f1cf24361ea8",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "lmao",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "1bb1fcb5-4037-40e2-8d7e-d790e6e98ca2",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "hahaha",
+          "userDefined": false
+        }
+      ],
+      "count": 1,
+      "id": "ae64f30e-11dc-4ae9-9474-cff23d5ca68b",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "haha that's ",
+          "userDefined": false
+        },
+        {
+          "text": "funny",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        }
+      ],
+      "count": 0,
+      "id": "165ebfd7-2f70-4aac-8a78-329f8eb2c718",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "ahahaha",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "25e8db75-4823-4e85-bee5-22918a1e85f5",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "ahah lol",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "51b76e29-fde9-4e05-86dc-243f4e5e46fc",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "haha",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "16145a36-25f4-4235-b906-52d98f102faa",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "hehe",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "5a9676f3-aaf6-42ca-b7a7-ad2e911ca55d",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "hehehe",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "88279087-2fe8-4276-92d4-f76107c11be9",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "ahahah",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "aa8781e5-8c21-48e4-8890-27cf7c445a36",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "ha ha",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "9730eb4e-95c5-497a-a1df-0f5bffc1c564",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

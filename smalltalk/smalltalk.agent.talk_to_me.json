@@ -1,0 +1,302 @@
+{
+  "id": "99e0955f-27e7-4d3a-af6b-3ef461bff3f9",
+  "name": "smalltalk.agent.talk_to_me",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "smalltalk.agent.talk_to_me",
+      "affectedContexts": [],
+      "parameters": [],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "Sure. Let's talk!",
+            "My pleasure. Let's chat."
+          ]
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "talk to me",
+          "userDefined": false
+        }
+      ],
+      "count": 1,
+      "id": "efafb4ae-2a8a-4930-b335-67e762b46b74",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "do you want to chat with me",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "ae055725-e770-4134-a23a-b2f7108faa67",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "can you talk with me",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "02b84854-99ba-430c-ab95-17167968c9ef",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "will",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " you talk to me",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "f5295efe-7496-4232-b48e-2df7df5e8100",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "can you chat with me",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "a5499ec6-0ee2-4d47-8568-34883a8e1a11",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "can you talk to me",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "4b270fc3-a5f3-498f-b823-dcc772db9485",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "are",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " you talking to me",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "1e69fe1c-22e9-48f8-b9cd-60972b84bed9",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "are",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " you going to talk to me",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "e63c19a2-8506-4863-8770-8cfeeeb616c7",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "why ",
+          "userDefined": false
+        },
+        {
+          "text": "don't",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " you talk to me",
+          "userDefined": false
+        }
+      ],
+      "count": 1,
+      "id": "10091627-e698-43cb-b83f-4b2ce40741a2",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "just chat with me",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "99d42ef4-0d30-459a-8260-b6366fb9b8cc",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "talk",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        }
+      ],
+      "count": 1,
+      "id": "b424c7b4-af3a-4742-8e76-0bc82e823d56",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "talk with me",
+          "userDefined": false
+        }
+      ],
+      "count": 1,
+      "id": "f2ca5038-d41b-461b-a54a-dbb424c3590c",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "speak to me",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "0616344d-ff3d-47d6-a716-a21e798ac693",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "you can talk to me",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "0713cb2e-f17c-4bac-96c6-ca27e75c5b0f",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "speak with me",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "8d9fcd56-ca42-4f26-bf00-91a9d790a7c7",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "why aren't you talking to me",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "e8ba30a8-6962-4623-8087-24244965a1cc",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "can you speak with me",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "1dfd2815-2ad5-4d35-805c-ed8b73d7cec6",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "say",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        }
+      ],
+      "count": 0,
+      "id": "5e477268-7b60-471c-9703-0385799504c4",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "chat with me",
+          "userDefined": false
+        }
+      ],
+      "count": 1,
+      "id": "9a771678-5e6c-4065-a6a3-4a5c6f539f3e",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

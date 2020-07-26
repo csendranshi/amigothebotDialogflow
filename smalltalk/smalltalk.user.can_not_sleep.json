@@ -1,0 +1,174 @@
+{
+  "id": "40f90d52-d17d-43a6-8d04-bf8c93fc7fbe",
+  "name": "smalltalk.user.can_not_sleep",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 250000,
+  "responses": [
+    {
+      "action": "smalltalk.user.can_not_sleep",
+      "affectedContexts": [],
+      "parameters": [],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "Maybe some music would help. Try listening to something relaxing.",
+            "Reading is a good way to unwind, just don't read something too intense!"
+          ]
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "I can't get no sleep",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "fdc674c8-4a97-4176-bc48-e95c0ecdf7d8",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "I'm insomniac",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "f4e7b4a6-0a36-409c-ae6e-dffb6e47dab7",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "I can't get to sleep",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "8d30850f-8666-4875-b81b-95b5ad8fd06b",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "I can't ",
+          "userDefined": false
+        },
+        {
+          "text": "sleep",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        }
+      ],
+      "count": 0,
+      "id": "0c8ed694-850f-49d6-8a8f-a6c7e70bbe14",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "I can't get any sleep",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "4b2346f0-c81e-4e9d-aba0-7ffbe04d9da5",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "I can't ",
+          "userDefined": false
+        },
+        {
+          "text": "fall",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " asleep",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "ab0471d8-3862-4b41-810e-e3063528778c",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "I'",
+          "userDefined": false
+        },
+        {
+          "text": "m",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " sleepless",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "fb398a28-f86d-452a-88f7-3f40ca657922",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "I'",
+          "userDefined": false
+        },
+        {
+          "text": "m",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " insomnious",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "50c1e622-45f8-4b1d-add6-423ab2dd0b5c",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

@@ -1,0 +1,158 @@
+{
+  "id": "219efabe-612b-46d5-9adf-34bd44182e6e",
+  "name": "smalltalk.appraisal.no_problem",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "smalltalk.appraisal.no_problem",
+      "affectedContexts": [],
+      "parameters": [],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "Whew!",
+            "Alright, thanks!",
+            "Glad to hear that!",
+            "I'm relieved, thanks!"
+          ]
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "sure",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " no problem",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "ee0d26c1-12b9-4d83-bd25-11e9e4c31644",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "don't",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " worry there's no problem",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "5caab623-2828-4003-acf6-d70e0fbcc4f1",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "there's no problem",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "7fe724ac-94ec-44ea-bfbe-779a1c4f1ee9",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "don",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": "'t worry",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "3a3e1a49-cb4e-49cb-8e96-82c4c5988e9d",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "no problem about that",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "dd5da551-06dc-47df-bf6c-9108d77f614c",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "no problem",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "505a870a-eb72-49d9-98a2-40383fed7793",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "no probs",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "bfd89bb9-8ebc-4dfb-abc6-141ef5a1fb36",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "no worries",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "c5ec9b07-b91a-4f68-9f18-420372777403",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

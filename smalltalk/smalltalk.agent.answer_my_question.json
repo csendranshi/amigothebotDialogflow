@@ -1,0 +1,306 @@
+{
+  "id": "e2eb7f8d-b37b-4db5-8c0e-4ded1662537a",
+  "name": "smalltalk.agent.answer_my_question",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "smalltalk.agent.answer_my_question",
+      "affectedContexts": [],
+      "parameters": [],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "Can you try asking it a different way?",
+            "I'm not sure I understood. Try asking another way?"
+          ]
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "answer",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "1944aa74-43a5-40c2-a8e9-8f980a136d46",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "just answer my question",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "dee36592-f8d1-467c-a93a-519e20383db5",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "answers",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "456035eb-c52f-4b27-810c-04dbb8cdaa73",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "tell me the answer",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "bbf90f60-d669-48f8-a017-816b0f72318c",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "answer my question",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "5343f5b4-5279-4972-8e0b-fd52c6c5ead9",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "can you answer me",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "a1820f1b-e954-477b-8e83-5ff4d2a32340",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "answering questions",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "25508354-6036-4b87-b7a3-a86b421ba2cf",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "I have a question",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "414b3ceb-128f-4fd8-8a11-233bc839c247",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "can you answer my question",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "0199ecf8-e56b-4045-8686-e29b2bfa490e",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "give",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " me the answer",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "46b9c5f0-f355-4121-be71-a8de70443af8",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "I want you to answer my question",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "49134dac-4932-4971-a481-1ce7bbb1a01e",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "answer me",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "0bbb9574-38ed-4f78-a55f-7bf01b78fcdb",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "answer the question",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "0661c7fe-7555-4398-876c-a1064a13aef9",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "just answer the question",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "bec0d777-5ab1-4459-8965-45cb2c39993c",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "give",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " me an answer",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "dc8d6ba0-e018-42e4-84f5-416f8e10756b",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "can you answer",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "2b741dab-aae0-4f0e-91f0-8967b5e5d8d9",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "I want you to answer ",
+          "userDefined": false
+        },
+        {
+          "text": "me",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        }
+      ],
+      "count": 0,
+      "id": "fcfa0673-6470-49ee-b820-ba0607462262",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "I want the answer now",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "7a8eef33-5137-4b27-9c88-f1f42dae617d",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "can you answer a question for me",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "99bc56eb-d00a-444a-93dd-71ab1bf4d69f",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "answer ",
+          "userDefined": false
+        },
+        {
+          "text": "it",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        }
+      ],
+      "count": 0,
+      "id": "28bb9930-c009-4f97-8656-f7ae0c42d0db",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

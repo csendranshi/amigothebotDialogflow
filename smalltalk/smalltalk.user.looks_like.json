@@ -1,0 +1,116 @@
+{
+  "id": "5f1c41fc-0644-4c1c-b7bc-b426dabb249f",
+  "name": "smalltalk.user.looks_like",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "smalltalk.user.looks_like",
+      "affectedContexts": [],
+      "parameters": [],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "Looking like a true professional.",
+            "You look fantastic, as always.",
+            "Like you should be on a magazine cover.",
+            "You look like you're ready to take on the world."
+          ]
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "what do I look like",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "084c6848-baac-4e09-8144-860ba5287d17",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "do you know what I look like",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "67f610cf-a1dc-4aa9-ac94-5f4fc24a3455",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "can you see what I look like",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "adba90f8-fc9a-438b-9d96-a819023dbc82",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "do I look good",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "219f49ae-2b08-4f13-8436-17027828d804",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "how do I look",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "bf6081f7-f02a-436e-9783-bfc895fb33f1",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "what do you think I look like",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "ab4603ee-892b-4966-9290-745cc8f00c3b",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

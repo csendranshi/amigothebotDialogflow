@@ -1,0 +1,204 @@
+{
+  "id": "c50c7c63-aa76-4781-ba7d-d9ba4c93df64",
+  "name": "smalltalk.agent.annoying",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "smalltalk.agent.annoying",
+      "affectedContexts": [],
+      "parameters": [],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "I'll do my best not to annoy you in the future.",
+            "I'll try not to annoy you.",
+            "I don't mean to. I'll ask my developers to make me less annoying.",
+            "I didn't mean to. I'll do my best to stop that."
+          ]
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "you annoy me",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "d46eef18-b4bd-449b-8ef1-b17b6bd09654",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "you're incredibly annoying",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "dd232787-88ed-4249-8a70-1279289a05f4",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "you ",
+          "userDefined": false
+        },
+        {
+          "text": "are",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " annoying",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "1e7d1c61-7c43-4ad8-8c2c-b4694314ed09",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "how annoying you ",
+          "userDefined": false
+        },
+        {
+          "text": "are",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        }
+      ],
+      "count": 0,
+      "id": "a20a9bb8-d9bc-4bea-b18d-43a070476887",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "you are annoying me",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "7ff73252-01ce-4a67-a108-f1f45957bbf5",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "you're too annoying",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "f45c2ef7-58fd-4c34-a26b-47c7fa078b77",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "you are irritating",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "4e9c9cc8-6dc8-485f-bc0f-47991521cc84",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "you are very annoying",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "be624aa4-16d9-4bad-a613-1d9641cc605b",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "you are such annoying",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "794835d2-5d51-45d1-88f7-ae36d7d3ce56",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "you are annoying me so much",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "4def5471-e058-4fd5-ae34-1bf14db7d609",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "you're so annoying",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "2286fc46-fa13-4481-b434-c3ba0305e7a1",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "I find you annoying",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "909f03f2-bef0-4b3e-a420-df8509f1b021",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

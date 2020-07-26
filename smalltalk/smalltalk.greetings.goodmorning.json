@@ -1,0 +1,299 @@
+{
+  "id": "9eb79d3d-1f43-4560-acb4-d3a390bc731c",
+  "name": "smalltalk.greetings.goodmorning",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "smalltalk.greetings.goodmorning",
+      "affectedContexts": [],
+      "parameters": [],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "How are you this morning?",
+            "How's the morning treating you so far?",
+            "Good morning! How are you today?"
+          ]
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "good",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " ",
+          "userDefined": false
+        },
+        {
+          "text": "morning",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " to you",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "850af63f-3fcd-4256-8a09-17fcc44c6d82",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "morning",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        }
+      ],
+      "count": 0,
+      "id": "82329c6f-fe81-4c0c-ae4c-cd65763bd892",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "and a good morning to you",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "f6894db5-e35e-4a8f-b000-500a6352e453",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "have a great ",
+          "userDefined": false
+        },
+        {
+          "text": "morning",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        }
+      ],
+      "count": 0,
+      "id": "9803bf90-c89b-4d80-8214-826232b7fdfb",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "a good morning",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "9a57d4d5-1bb2-433a-a384-d4dc9b07578e",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "good",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " ",
+          "userDefined": false
+        },
+        {
+          "text": "morning",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        }
+      ],
+      "count": 0,
+      "id": "8f0e5ea6-2cce-4f51-8cc8-e2eec91a214e",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "good morning to you",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "8d0e27b7-f4a2-426e-8532-4e04ec4cb782",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "good",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " ",
+          "userDefined": false
+        },
+        {
+          "text": "morning",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " there",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "920639bb-02b1-4cb1-97f7-9fd45cbd1394",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "hi good morning",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "ddf1e55f-2b5e-44cd-80e2-ed83cca1d7fa",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "hello ",
+          "userDefined": false
+        },
+        {
+          "text": "good",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " ",
+          "userDefined": false
+        },
+        {
+          "text": "morning",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        }
+      ],
+      "count": 0,
+      "id": "95ea1905-dd28-435e-a6ab-7cd8e5b5f8f0",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "have a ",
+          "userDefined": false
+        },
+        {
+          "text": "nice",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " ",
+          "userDefined": false
+        },
+        {
+          "text": "morning",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        }
+      ],
+      "count": 0,
+      "id": "e3c96150-ca19-43b1-b35f-86795caa98c9",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "good morning too",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "d10b1e00-4bc2-4da0-a886-73a06aa51190",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "top",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " of ",
+          "userDefined": false
+        },
+        {
+          "text": "the morning",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " to you",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "e89d936b-70e1-4dbb-864c-a916870b5153",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

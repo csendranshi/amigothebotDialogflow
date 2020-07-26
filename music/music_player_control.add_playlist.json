@@ -1,0 +1,218 @@
+{
+  "id": "6315f5ee-327f-4c47-8512-b5fe0bebe020",
+  "name": "music_player_control.add_playlist",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [
+    "music-player-control"
+  ],
+  "contexts": [
+    "music-player-control"
+  ],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "music_player_control.add_playlist",
+      "affectedContexts": [
+        {
+          "name": "music-player-control",
+          "lifespan": 3
+        }
+      ],
+      "parameters": [
+        {
+          "noInputPromptMessages": [],
+          "noMatchPromptMessages": [],
+          "promptMessages": [],
+          "defaultValue": "",
+          "name": "playlist",
+          "dataType": "@sys.any",
+          "isList": false,
+          "required": false,
+          "prompts": [],
+          "value": "$playlist",
+          "outputDialogContexts": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "message",
+          "condition": "",
+          "speech": []
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "save ",
+          "userDefined": false
+        },
+        {
+          "text": "this",
+          "userDefined": true,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " song to my ",
+          "userDefined": false
+        },
+        {
+          "text": "Workout",
+          "userDefined": true,
+          "alias": "playlist",
+          "meta": "@sys.any"
+        },
+        {
+          "text": " playlist",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "c788119a-e9b5-4de2-ad84-38106dcce5ac",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "move it to the ",
+          "userDefined": false
+        },
+        {
+          "text": "Gym",
+          "userDefined": true,
+          "alias": "playlist",
+          "meta": "@sys.any"
+        },
+        {
+          "text": " playlist",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "a17f418c-df84-4876-8a44-0a4b94c945e1",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "put it on my ",
+          "userDefined": false
+        },
+        {
+          "text": "Late Night",
+          "userDefined": true,
+          "alias": "playlist",
+          "meta": "@sys.any"
+        },
+        {
+          "text": " playlist",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "8974864d-80e6-4446-8bfa-d59ad9d3d3ad",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "put it into the playlist ",
+          "userDefined": false
+        },
+        {
+          "text": "Running",
+          "userDefined": true,
+          "alias": "playlist",
+          "meta": "@sys.any"
+        }
+      ],
+      "count": 0,
+      "id": "28021c0b-67f0-4f56-87f4-875dff659c2c",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "save ",
+          "userDefined": false
+        },
+        {
+          "text": "this",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " track in my playlist",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "b32e4906-dbdd-4bf3-bbae-5220b2fb4b58",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "add it to the playlist ",
+          "userDefined": false
+        },
+        {
+          "text": "Yoga",
+          "userDefined": false,
+          "alias": "playlist",
+          "meta": "@sys.any"
+        }
+      ],
+      "count": 0,
+      "id": "ce2f711a-ffb3-4857-bad5-c4ed76178095",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "add ",
+          "userDefined": false
+        },
+        {
+          "text": "this",
+          "userDefined": true,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " song to my playlist",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "dd21084d-a137-416e-a36d-ee9b26a48047",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

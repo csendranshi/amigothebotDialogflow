@@ -1,0 +1,163 @@
+{
+  "id": "82e2af70-20f8-46f9-a8d0-9262cf01b82b",
+  "name": "smalltalk.agent.birth_date",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "smalltalk.agent.birth_date",
+      "affectedContexts": [],
+      "parameters": [],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "Wait, are you planning a party for me? It's today! My birthday is today!",
+            "I'm young. I'm not sure of my birth date.",
+            "I don't know my birth date. Most virtual agents are young, though, like me."
+          ]
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "when were you born",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "af07b72e-fa00-43c9-b074-fa5747df9136",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "when do you have ",
+          "userDefined": false
+        },
+        {
+          "text": "birthday",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        }
+      ],
+      "count": 0,
+      "id": "d2d4c06d-9492-4c5a-91f5-427a38107f59",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "when is your ",
+          "userDefined": false
+        },
+        {
+          "text": "birthday",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        }
+      ],
+      "count": 0,
+      "id": "c0817d57-3170-45e8-a05b-9838789c21fe",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "your",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " birth date",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "5a11d4e9-f3d9-44d4-b356-c54ce9927d8f",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "when do you celebrate your ",
+          "userDefined": false
+        },
+        {
+          "text": "birthday",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        }
+      ],
+      "count": 0,
+      "id": "92237e77-4006-46ca-b9fa-648e879625f8",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "date of your ",
+          "userDefined": false
+        },
+        {
+          "text": "birthday",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        }
+      ],
+      "count": 0,
+      "id": "5f92f831-d15f-437a-9d18-5b93088f0742",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "what's your ",
+          "userDefined": false
+        },
+        {
+          "text": "birthday",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        }
+      ],
+      "count": 0,
+      "id": "92c7b711-ca56-4721-832a-46b95cd891ec",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

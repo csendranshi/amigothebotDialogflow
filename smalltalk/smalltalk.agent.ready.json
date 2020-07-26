@@ -1,0 +1,174 @@
+{
+  "id": "e864c1b5-8416-4f43-b660-8fab593ba728",
+  "name": "smalltalk.agent.ready",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "smalltalk.agent.ready",
+      "affectedContexts": [],
+      "parameters": [],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "Always! How can I help?",
+            "Sure! What can I do for you?"
+          ]
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "are",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " you ready ",
+          "userDefined": false
+        },
+        {
+          "text": "today",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        }
+      ],
+      "count": 0,
+      "id": "5fa75d22-7344-44b9-bbb6-99b4def2c229",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "are",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " you ready",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "3c10720e-7ee0-4b62-a0be-9f05024818e3",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "are",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " you ready ",
+          "userDefined": false
+        },
+        {
+          "text": "tonight",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        }
+      ],
+      "count": 0,
+      "id": "47aef48d-dd92-40a8-b73a-e33235740394",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "are",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " you ready now",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "78dc9915-6a3b-4ba1-8d10-3623f09e6d26",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "have you been ready",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "df62c314-f953-4f32-abb8-4a7bab8334c6",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "were you ready",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "59b69605-1689-443a-a833-e8139a9d5e0d",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "are",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " you ready ",
+          "userDefined": false
+        },
+        {
+          "text": "right now",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        }
+      ],
+      "count": 0,
+      "id": "b716babe-4dfa-4bba-8261-f1fb50555fec",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

@@ -1,0 +1,115 @@
+{
+  "id": "5537857c-7919-4a00-a574-8474a10aa6e2",
+  "name": "smalltalk.user.excited",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "smalltalk.user.excited",
+      "affectedContexts": [],
+      "parameters": [],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "I'm glad things are going your way.",
+            "That's great. I'm happy for you.",
+            "Good for you. Enjoy yourself."
+          ]
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "I'm really excited",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "25c403c3-7369-44cd-81d6-62b7b8521ad3",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "I'm excited to start our friendship",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "64427c25-e0ae-43be-92fe-795ac574a7a3",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "I am excited",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "fdd68de9-64b9-4fc5-96c3-3db2c346affb",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "how excited I am",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "9203538c-6f4c-4d30-958f-c7d04a017ffa",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "I'm excited about working with you",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "6e52baa8-ccb5-4872-9ae5-c6d68dcc3cb8",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "I'm thrilled",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "b5daa1c2-c99a-4589-a40b-2304089e4d2b",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

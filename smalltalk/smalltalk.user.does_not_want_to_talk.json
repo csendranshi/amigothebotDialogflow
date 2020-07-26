@@ -1,0 +1,148 @@
+{
+  "id": "9ab7572a-ef77-4fe4-a900-b5587b10f011",
+  "name": "smalltalk.user.does_not_want_to_talk",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "smalltalk.user.does_not_want_to_talk",
+      "affectedContexts": [],
+      "parameters": [],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "I understand. Hope we can chat again soon.",
+            "All right. Come on back when you're feeling more talkative.",
+            "No problem. You know where to find me.",
+            "Sure thing. I'll be here if you change your mind."
+          ]
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "I ",
+          "userDefined": false
+        },
+        {
+          "text": "don",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": "'t want to talk",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "eb9bb40e-6151-416f-a240-3cb8890cadd5",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "I ",
+          "userDefined": false
+        },
+        {
+          "text": "don't",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " want to talk to you",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "db0a97ac-99d3-410d-917d-02a3817c3b31",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "I'm not talking to you anymore",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "76a78315-4dba-4fd5-9f63-d9284c19ba2e",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "let's stop talking for a minute",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "1d7c74f2-23ba-409b-9abf-6bc9e1c6c30c",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "let's not talk",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "9181db20-5201-46d4-aadd-5f73fa456577",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "I'm not in the mood for chatting",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "0b45588e-fbd4-47f1-94bd-adef64ae9483",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "bad time for talking",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "c6b26036-3814-45e5-934f-6e77dc6fa99b",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

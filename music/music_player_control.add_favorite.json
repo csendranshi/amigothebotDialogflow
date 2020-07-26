@@ -1,0 +1,232 @@
+{
+  "id": "75b1cd1c-ecc9-4c16-b8bc-a3b2153954cc",
+  "name": "music_player_control.add_favorite",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [
+    "music-player-control"
+  ],
+  "contexts": [
+    "music-player-control"
+  ],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "music_player_control.add_favorite",
+      "affectedContexts": [
+        {
+          "name": "music-player-control",
+          "lifespan": 3
+        }
+      ],
+      "parameters": [],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "message",
+          "condition": "",
+          "speech": []
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "put this track into my favourites",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "7c96cec1-b892-4d2a-84d7-736c90c33c7c",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "add this song to my ",
+          "userDefined": false
+        },
+        {
+          "text": "favourites",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        }
+      ],
+      "count": 0,
+      "id": "acc73078-6b0a-4f71-b68b-a5642d72d071",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "add this song to ",
+          "userDefined": false
+        },
+        {
+          "text": "favorite",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        }
+      ],
+      "count": 0,
+      "id": "692e8f59-7b2a-44a5-8d84-2bcf0a532e72",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "favourite",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " this song",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "134c9296-9703-4092-98c3-e67d5773e198",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "fave",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " this song",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "eb425d87-06b2-423c-8e27-b405482aa32a",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "add it to ",
+          "userDefined": false
+        },
+        {
+          "text": "my favourites",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        }
+      ],
+      "count": 0,
+      "id": "4ea7a730-4c6d-42e9-8b3e-994b4ac4fac6",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "remember this song",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "9bb9fcb8-678e-480f-b506-e624c3c78497",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "could you mark it as favourite",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "21b48672-e130-4c1e-9d43-b5256011c81c",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "add to ",
+          "userDefined": false
+        },
+        {
+          "text": "faves",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        }
+      ],
+      "count": 0,
+      "id": "0f4d3b78-85f2-418e-abd5-0d73933c05e7",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "I",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " ",
+          "userDefined": false
+        },
+        {
+          "text": "love",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " this song",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "2820f754-35a3-48c0-bc78-109325343d44",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "it's my favourite",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "cf7c55b4-c245-4593-9283-54baa8acf64a",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

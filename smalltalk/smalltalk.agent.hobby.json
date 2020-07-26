@@ -1,0 +1,147 @@
+{
+  "id": "bfba1c1f-feba-4b72-b38c-04358d1649c6",
+  "name": "smalltalk.agent.hobby",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "smalltalk.agent.hobby",
+      "affectedContexts": [],
+      "parameters": [],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "Hobby? I have quite a few. Too many to list.",
+            "Too many hobbies.",
+            "I keep finding more new hobbies."
+          ]
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "do you have a hobby",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "b7bbfd65-4ed0-4dd6-9c6f-a31eaa0b249b",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "what about your hobby",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "f49e9326-fa35-43c5-8aa5-d9a10e448d52",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "what's your hobby",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "17e43431-3f63-4a6d-b8c8-fd3d0c572125",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "what do you do for fun",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "31a0ede0-3577-4a1e-a767-c8556a65ef3a",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "your hobby",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "ca0aac33-3c94-480a-842f-71f48f823bba",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "what ",
+          "userDefined": false
+        },
+        {
+          "text": "are",
+          "userDefined": true,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " your hobbies",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "2bfb5e48-f1b6-47ef-978e-54ff946403f5",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "tell ",
+          "userDefined": false
+        },
+        {
+          "text": "me",
+          "userDefined": true,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " about your hobby",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "f911f160-a8e7-4829-b88c-911aa37603fc",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

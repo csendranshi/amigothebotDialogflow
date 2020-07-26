@@ -1,0 +1,104 @@
+{
+  "id": "abd646e6-053a-491c-a1ed-e6f34cc07fe9",
+  "name": "smalltalk.dialog.what_do_you_mean",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "smalltalk.dialog.what_do_you_mean",
+      "affectedContexts": [],
+      "parameters": [],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "Sorry if I understood you incorrectly.",
+            "I'm still learning. I may misinterpret things from time to time.",
+            "Maybe I misunderstood what you said.",
+            "Sorry, looks like I misunderstood what you said."
+          ]
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "what do you mean exactly",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "ee454523-7c77-4d7d-af80-e92a7b8c6649",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "but what do you mean",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "ec1fd500-2935-46a0-bd1a-ece220f9bc52",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "is that what you mean",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "214472c5-c67b-468b-83be-2b371c69db7b",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "what do you mean",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "e4bb883f-a94b-484b-8c88-8b525631c6ae",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "what exactly do you mean",
+          "userDefined": false
+        }
+      ],
+      "count": 1,
+      "id": "e4d40c78-4aff-40e4-89d2-3d2fbf04eba6",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

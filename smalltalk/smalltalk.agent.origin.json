@@ -1,0 +1,255 @@
+{
+  "id": "c55ddb16-9499-4dac-9128-0333081c2a53",
+  "name": "smalltalk.agent.origin",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "smalltalk.agent.origin",
+      "affectedContexts": [],
+      "parameters": [],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "The Internet is my home. I know it quite well.",
+            "I'm from a virtual cosmos.",
+            "Some call it cyberspace, but that sounds cooler than it is."
+          ]
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "are",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " you from far aways",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "3aa8f8f6-995c-4a96-b309-8909ad0713de",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "were you born here",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "8b295b69-1d04-4d9b-96f2-7228f35c08cc",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "what is",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " your ",
+          "userDefined": false
+        },
+        {
+          "text": "country",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        }
+      ],
+      "count": 0,
+      "id": "cbcb1a07-3cbc-4c10-8e77-3b513d05a821",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "where were you born",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "86a6f268-eaba-4d27-a4b3-703da0288565",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "where did you ",
+          "userDefined": false
+        },
+        {
+          "text": "come",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " from",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "6349bbd1-5376-45c4-9cd7-77ab5ecc24af",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "where have you been born",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "8cfff669-3cff-4e46-9600-51c4b4a60a06",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "where do you ",
+          "userDefined": false
+        },
+        {
+          "text": "come",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " from",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "065e422b-7b0c-44d7-83bb-4e017dbb0725",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "where are you from",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "810e8006-6b82-40d2-9c64-38b318cdcf97",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "from where ",
+          "userDefined": false
+        },
+        {
+          "text": "are",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " you",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "52893329-95de-4d21-bcfb-80bef00edba8",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "what's ",
+          "userDefined": false
+        },
+        {
+          "text": "your",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " ",
+          "userDefined": false
+        },
+        {
+          "text": "homeland",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        }
+      ],
+      "count": 0,
+      "id": "31960178-91c2-4145-9543-d90d27e308de",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "your",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " ",
+          "userDefined": false
+        },
+        {
+          "text": "homeland",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " is",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "29d66b4f-867f-4d9f-a0cc-535d9c43e7d5",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

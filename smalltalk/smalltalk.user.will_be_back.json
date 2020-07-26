@@ -1,0 +1,143 @@
+{
+  "id": "682fc6bd-fda5-4a00-9ef6-2d0c7b0c3121",
+  "name": "smalltalk.user.will_be_back",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "smalltalk.user.will_be_back",
+      "affectedContexts": [],
+      "parameters": [],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "I'll be waiting.",
+            "Okay. You know where to find me.",
+            "All right. I'll be here."
+          ]
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "I'll be back in a few minutes",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "4eb4b834-7fcd-4fc5-9b79-c5bd9517a90c",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "be back ",
+          "userDefined": false
+        },
+        {
+          "text": "in",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " ",
+          "userDefined": false
+        },
+        {
+          "text": "5",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " minutes",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "58bd62b8-a83d-4970-8533-315a2a036005",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "I'll get back to you ",
+          "userDefined": false
+        },
+        {
+          "text": "in",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " a moment",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "3bc3c136-6d6b-4528-bff4-da9109f6c31b",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "I'll be back",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "0993e184-9ce4-43c9-b09b-472818c8f023",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "I promise to ",
+          "userDefined": false
+        },
+        {
+          "text": "come",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " back",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "908518b3-3f7b-491e-977d-6723aa4dd4b8",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

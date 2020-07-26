@@ -1,0 +1,491 @@
+{
+  "id": "ed9f79f3-0089-48b1-b0ad-09aae365ae0b",
+  "name": "music.shuffle",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "music.shuffle",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "noInputPromptMessages": [],
+          "noMatchPromptMessages": [],
+          "promptMessages": [],
+          "defaultValue": "",
+          "name": "artist",
+          "dataType": "@sys.music-artist",
+          "isList": true,
+          "required": false,
+          "prompts": [],
+          "value": "$artist",
+          "outputDialogContexts": []
+        },
+        {
+          "noInputPromptMessages": [],
+          "noMatchPromptMessages": [],
+          "promptMessages": [],
+          "defaultValue": "",
+          "name": "album",
+          "dataType": "@music-album",
+          "isList": false,
+          "required": false,
+          "prompts": [],
+          "value": "$album",
+          "outputDialogContexts": []
+        },
+        {
+          "noInputPromptMessages": [],
+          "noMatchPromptMessages": [],
+          "promptMessages": [],
+          "defaultValue": "",
+          "name": "playlist",
+          "dataType": "@playlist",
+          "isList": false,
+          "required": false,
+          "prompts": [],
+          "value": "$playlist",
+          "outputDialogContexts": []
+        },
+        {
+          "noInputPromptMessages": [],
+          "noMatchPromptMessages": [],
+          "promptMessages": [],
+          "defaultValue": "",
+          "name": "year",
+          "dataType": "@sys.number",
+          "isList": false,
+          "required": false,
+          "prompts": [],
+          "value": "$year",
+          "outputDialogContexts": []
+        },
+        {
+          "noInputPromptMessages": [],
+          "noMatchPromptMessages": [],
+          "promptMessages": [],
+          "defaultValue": "",
+          "name": "genre",
+          "dataType": "@sys.music-genre",
+          "isList": false,
+          "required": false,
+          "prompts": [],
+          "value": "$genre",
+          "outputDialogContexts": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "message",
+          "condition": "",
+          "speech": []
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "shuffle ",
+          "userDefined": false
+        },
+        {
+          "text": "Lucky Star",
+          "userDefined": true,
+          "alias": "album",
+          "meta": "@music-album"
+        },
+        {
+          "text": " album by ",
+          "userDefined": false
+        },
+        {
+          "text": "Madonna",
+          "userDefined": true,
+          "alias": "artist",
+          "meta": "@sys.music-artist"
+        },
+        {
+          "text": " year ",
+          "userDefined": false
+        },
+        {
+          "text": "1968",
+          "userDefined": true,
+          "alias": "year",
+          "meta": "@sys.number"
+        }
+      ],
+      "count": 0,
+      "id": "28ccfe92-da79-4537-98e6-eb459bd75e83",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "shuffle ",
+          "userDefined": false
+        },
+        {
+          "text": "country",
+          "userDefined": true,
+          "alias": "genre",
+          "meta": "@sys.music-genre"
+        },
+        {
+          "text": " music ",
+          "userDefined": false
+        },
+        {
+          "text": "on",
+          "userDefined": true,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " my device",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "70101ac6-00a0-4c75-ad40-47384664c210",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "shuffle ",
+          "userDefined": false
+        },
+        {
+          "text": "White Album",
+          "userDefined": true,
+          "alias": "album",
+          "meta": "@music-album"
+        },
+        {
+          "text": " by ",
+          "userDefined": false
+        },
+        {
+          "text": "The Beatles",
+          "userDefined": true,
+          "alias": "artist",
+          "meta": "@sys.music-artist"
+        }
+      ],
+      "count": 0,
+      "id": "6dcf26c6-5604-4783-83ac-5169fe41a043",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "could you shuffle my ",
+          "userDefined": false
+        },
+        {
+          "text": "Work",
+          "userDefined": true,
+          "alias": "playlist",
+          "meta": "@playlist"
+        },
+        {
+          "text": " playlist",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "f4e15962-0428-44ad-85ac-e7fa6a2fba69",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "shuffle ",
+          "userDefined": false
+        },
+        {
+          "text": "songs",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " from ",
+          "userDefined": false
+        },
+        {
+          "text": "the year",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " ",
+          "userDefined": false
+        },
+        {
+          "text": "2000",
+          "userDefined": false,
+          "alias": "year",
+          "meta": "@sys.number"
+        }
+      ],
+      "count": 0,
+      "id": "c89e7cc3-2e90-47a9-bcda-2abe4162e45f",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "shuffle songs by ",
+          "userDefined": false
+        },
+        {
+          "text": "Rihanna",
+          "userDefined": true,
+          "alias": "artist",
+          "meta": "@sys.music-artist"
+        },
+        {
+          "text": " feat ",
+          "userDefined": false
+        },
+        {
+          "text": "Eminem",
+          "userDefined": true,
+          "alias": "artist",
+          "meta": "@sys.music-artist"
+        }
+      ],
+      "count": 0,
+      "id": "51d45f9f-f400-4e96-aebc-3f4675f89248",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "shuffle ",
+          "userDefined": false
+        },
+        {
+          "text": "Nirvana",
+          "userDefined": true,
+          "alias": "artist",
+          "meta": "@sys.music-artist"
+        },
+        {
+          "text": "'s ",
+          "userDefined": false
+        },
+        {
+          "text": "Nevermind",
+          "userDefined": true,
+          "alias": "album",
+          "meta": "@music-album"
+        },
+        {
+          "text": " album",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "d50722c9-b991-42bb-b292-dfa3227085c9",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "shuffle the album ",
+          "userDefined": false
+        },
+        {
+          "text": "Songs about Jane",
+          "userDefined": true,
+          "alias": "album",
+          "meta": "@music-album"
+        }
+      ],
+      "count": 0,
+      "id": "5e18a536-2aa3-4f0a-a196-33863a5f4abd",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "I'd like you to shuffle my ",
+          "userDefined": false
+        },
+        {
+          "text": "Gym",
+          "userDefined": true,
+          "alias": "playlist",
+          "meta": "@playlist"
+        },
+        {
+          "text": " playlist",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "45bac670-e673-4b31-aecd-3a864ec789fd",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "shuffle ",
+          "userDefined": false
+        },
+        {
+          "text": "Eminem",
+          "userDefined": true,
+          "alias": "artist",
+          "meta": "@sys.music-artist"
+        },
+        {
+          "text": "'s songs",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "c6794a15-31f3-4973-bf01-e7a49acc4663",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "shuffle ",
+          "userDefined": false
+        },
+        {
+          "text": "Kanye West",
+          "userDefined": true,
+          "alias": "artist",
+          "meta": "@sys.music-artist"
+        },
+        {
+          "text": "'s albums",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "5603daca-b229-48f9-914b-cca91b1cacde",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "shuffle my playlist",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "75b62ec9-8227-40e3-b9fe-36b9584d78b6",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "shuffle ",
+          "userDefined": false
+        },
+        {
+          "text": "all",
+          "userDefined": true,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " my ",
+          "userDefined": false
+        },
+        {
+          "text": "jazz",
+          "userDefined": true,
+          "alias": "genre",
+          "meta": "@sys.music-genre"
+        },
+        {
+          "text": " ",
+          "userDefined": false
+        },
+        {
+          "text": "music",
+          "userDefined": true,
+          "meta": "@sys.ignore",
+          "alias": null
+        }
+      ],
+      "count": 0,
+      "id": "432233cd-5855-4fec-ad31-f773794d54cc",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "can you shuffle tracks",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "3db00e37-aecb-42dc-8732-458a1df7b365",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "shuffle ",
+          "userDefined": false
+        },
+        {
+          "text": "Faves",
+          "userDefined": true,
+          "alias": "playlist",
+          "meta": "@playlist"
+        },
+        {
+          "text": " playlist",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "40280911-6cba-440c-8ade-79e375cc3001",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

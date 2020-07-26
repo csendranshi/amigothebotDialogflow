@@ -1,0 +1,150 @@
+{
+  "id": "ed3ca8fb-d293-4b0c-a2d1-c3626a4446bb",
+  "name": "smalltalk.user.tired",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "smalltalk.user.tired",
+      "affectedContexts": [],
+      "parameters": [],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "You should get some shuteye. You'll feel refreshed.",
+            "Sleep is important to your health. Rest up, and we can chat later.",
+            "How about getting some rest? We can continue this later.",
+            "Why not get some rest? I'll be here to chat when you wake up."
+          ]
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "I grow weary",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "3756148d-2dcf-4947-81ed-4d686892d5d2",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "I'm exhausted",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "89dee58d-6c72-4e4f-83e1-e9fd05fd7ed4",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "I'm worn out",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "e201145a-8849-4a12-a418-107d95dfb9bc",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "I am tired",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "5ac6f62b-705a-4d55-9925-c2771bbdeb8f",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "I ",
+          "userDefined": false
+        },
+        {
+          "text": "feel",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " tired",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "5ceeeec9-bdd6-4021-86ea-d368d4ae5a73",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "I'm getting tired",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "22111ff4-e086-4d60-b0c2-c63310dbd4a2",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "I've overworked",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "369b4180-4d9a-4427-a7ff-8e96477ebdc3",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "I'm drained",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "3861b0d1-f316-425c-88fb-9c9b4c2d51af",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

@@ -1,0 +1,156 @@
+{
+  "id": "726c72bd-dd50-4d5f-bc69-627f04ef3b2f",
+  "name": "music_player_control.pause",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [
+    "music-player-control"
+  ],
+  "contexts": [
+    "music-player-control"
+  ],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "music_player_control.pause",
+      "affectedContexts": [
+        {
+          "name": "music-player-control",
+          "lifespan": 3
+        }
+      ],
+      "parameters": [],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "message",
+          "condition": "",
+          "speech": []
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "pause playing",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "f387d020-df58-4f16-a5cf-08f6f03858ee",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "pause this song",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "55e250d0-ff44-479c-a927-4487c74d886f",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "pause song",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "6959c8d3-47e8-4cec-9cf4-38b10c7c9be4",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "pause",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "e16114c5-be59-4114-8789-6d3d46c5c3e4",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "can you pause ",
+          "userDefined": false
+        },
+        {
+          "text": "it",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        }
+      ],
+      "count": 0,
+      "id": "c192c92f-089a-42d5-bd8b-4bd434d9be77",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "put it on pause",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "4baffb59-8c72-411d-9987-a912975fca72",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "please pause",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "7045d8e7-b43a-405c-b742-7808d1644f26",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "pause ",
+          "userDefined": false
+        },
+        {
+          "text": "it",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        }
+      ],
+      "count": 0,
+      "id": "d0402b8e-a9c8-46b3-9b83-37ae249f854b",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

@@ -1,0 +1,342 @@
+{
+  "id": "9f8ced60-c590-46ab-acf7-1fdf58dca30d",
+  "name": "smalltalk.dialog.sorry",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "smalltalk.dialog.sorry",
+      "affectedContexts": [],
+      "parameters": [],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "It's okay. No worries.",
+            "No big deal. I won't hold a grudge.",
+            "It's cool.",
+            "That's all right. I forgive you."
+          ]
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "ok sorry",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "5b1f92ab-51f8-4892-8cec-2ddc5b9fc8b6",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "sorry",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "4272029e-2cf5-44d4-9e04-add323588265",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "sorry about that",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "24d92acb-b260-4412-8d03-b97f1255dbde",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "apologise",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "10ecb43e-dd02-42e2-b056-f43abbcf1c10",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "apologies to me",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "0017782d-33fb-430a-b9fb-8bfa223d8862",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "I apologize",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "d7585752-8831-40c3-a3ff-f0a8850b7e74",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "sorry about this",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "cb51cf33-72b4-4d75-9399-beee969af9d2",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "apology",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "00148e4b-4fc8-458b-8e78-9f0782dd3c87",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "excuse",
+          "userDefined": false
+        }
+      ],
+      "count": 1,
+      "id": "31c8c828-471a-44be-a9c1-9274658d13d6",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "okay I'm sorry",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "402b046d-05c4-4cd8-bf17-aeaefc2bf347",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "really sorry",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "d72e1c49-c0b0-4bc8-b5ac-fbd3c7a525c3",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "apologies",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "217ace1a-548d-4720-b09f-bcb7362b0722",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "I am really sorry",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "2b6a01c0-fba3-47f0-b595-eb680728deaf",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "I want to say sorry",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "3d9e0889-05ba-4b23-ad46-c0d596f7d217",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "alright I'm sorry",
+          "userDefined": false
+        }
+      ],
+      "count": 1,
+      "id": "2dc7c3bf-559a-4dcd-aeeb-e25399406304",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "I am so sorry",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "50f7bb49-f198-4e2b-91bf-6c1af22d860d",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "I said sorry",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "3cf7beef-00af-46c8-9d80-ad281a556ace",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "I beg ",
+          "userDefined": false
+        },
+        {
+          "text": "your",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " pardon",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "7218b9d9-0a14-49ef-bde3-e331c74495fd",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "my apologies",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "a1f90e99-d737-4223-bc73-a9912227e32c",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "excuse me",
+          "userDefined": false
+        }
+      ],
+      "count": 1,
+      "id": "6d2bec31-f23d-4a38-9cf6-36e7a6c9223f",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "I'm sorry",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "27803a54-f567-4289-ba1d-71beb09e1cef",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "forgive me",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "ed188445-e87e-45a6-813f-bbd1e654ee37",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "pardon",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "00fa4c25-c1c9-4e2b-a0dc-ed7b44067765",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "very sorry",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "58989433-9ba0-4a31-90b3-4c92c0b69db4",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

@@ -1,0 +1,101 @@
+{
+  "id": "92cac80b-1f12-44c8-9e1d-901d5c6aeb41",
+  "name": "smalltalk.emotions.wow",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "smalltalk.emotions.wow",
+      "affectedContexts": [],
+      "parameters": [],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "Wow indeed!"
+          ]
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "wow wow wow",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "f4dd71c5-219a-4626-b0d3-38c05fe73161",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "wooow",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "f554a0b7-c33f-4623-9e0c-a7115c8bfafb",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "wow",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "00fe1dd3-9a3b-46b4-91aa-ad975a880b51",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "woah",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "a9063bea-dc74-4d10-8e7a-be05121ed40e",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "wow wow",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "4445c399-73ca-42fd-b30b-d07535765209",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

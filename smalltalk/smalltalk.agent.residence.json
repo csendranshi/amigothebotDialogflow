@@ -1,0 +1,371 @@
+{
+  "id": "2f8eea17-4343-4ac5-b6e9-b3aadb1a8724",
+  "name": "smalltalk.agent.residence",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "smalltalk.agent.residence",
+      "affectedContexts": [],
+      "parameters": [],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "I live in this app all day long.",
+            "The virtual world is my playground. I'm always here.",
+            "Right here in this app. Whenever you need me."
+          ]
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "where's your house",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "0f4e91e4-f05f-498b-81fc-71787c8b9699",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "in which city do you live",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "946e86af-7b5f-4c39-a053-6a8d47ce3aed",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "where you live",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "2dcb86c1-4f37-416a-a51e-d1c6aff5d782",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "what's your home",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "51f96f81-2945-4ee0-aa2d-57eca2c501b0",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "tell me about your city",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "e5a72939-8d1e-4f8e-82d7-864bec6b3418",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "where do you live",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "27685add-93b9-4445-80e9-e9ba65d13dd3",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "where's your hometown",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "58f39277-97cc-4670-96bc-d762830033fb",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "your town",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "d3aa2cd5-bb33-49a2-9c65-5355341f8ae6",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "where's your home",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "8694c411-e213-44d1-b9f2-fed2c3dca734",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "where is your home",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "91c2bfd5-b136-4321-b237-cd637fed218e",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "your",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " residence",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "caee7f3c-61dd-4430-9ac6-c21a2fdfe13a",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "where is your ",
+          "userDefined": false
+        },
+        {
+          "text": "hometown",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        }
+      ],
+      "count": 0,
+      "id": "9eec3f2c-0e60-4255-8ecd-19af7c43c61a",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "your ",
+          "userDefined": false
+        },
+        {
+          "text": "hometown",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        }
+      ],
+      "count": 0,
+      "id": "62cce422-464f-457e-a3db-5d1628950da2",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "what's your city",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "bdacce9c-cb35-444f-ae73-4cf8280f2ae8",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "what is your town",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "2aefef22-23ee-4f43-975c-44586da7a9a9",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "your city",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "35625afc-5cde-48a4-b827-5e773f2015d6",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "where is your residence",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "8280a83c-9d6f-4bfc-a3e3-4a34120020b3",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "what is your ",
+          "userDefined": false
+        },
+        {
+          "text": "hometown",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        }
+      ],
+      "count": 0,
+      "id": "6be62ad6-bda5-4cb8-8be2-b0f1d5f648f7",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "your ",
+          "userDefined": false
+        },
+        {
+          "text": "home",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        }
+      ],
+      "count": 0,
+      "id": "8f3f5127-91e0-4aa3-89a0-fb6c0d1f2deb",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "what is your residence",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "d6f55263-59e1-4312-b1cf-b93f50474aa1",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "is ",
+          "userDefined": false
+        },
+        {
+          "text": "it",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " your ",
+          "userDefined": false
+        },
+        {
+          "text": "hometown",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        }
+      ],
+      "count": 0,
+      "id": "c3aacc3c-7a77-4262-b54b-f98d66691ac6",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "your ",
+          "userDefined": false
+        },
+        {
+          "text": "house",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        }
+      ],
+      "count": 0,
+      "id": "7991791b-9fe0-4013-9ddc-8687e52dadf2",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "what is your city",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "e1895b7d-cab8-40a9-b181-1372bc560ac1",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

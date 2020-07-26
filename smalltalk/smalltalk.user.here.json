@@ -1,0 +1,103 @@
+{
+  "id": "b8d1384c-7469-4f62-a769-cea6417f8201",
+  "name": "smalltalk.user.here",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "smalltalk.user.here",
+      "affectedContexts": [],
+      "parameters": [],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "Okay, what can I help you with today?",
+            "You were missed. What can I do for you today?",
+            "Good to have you here. What can I do for you?"
+          ]
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "I'm already here",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "70b92d8a-1d3f-411c-84f2-93666898a747",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "can you tell if I'm here or not",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "876794f3-c7e8-4c81-9663-2018d0aff72c",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "I am here",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "45aecfa2-a33d-4585-855e-d669f85426c4",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "I'm right here",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "824afbad-5a16-4815-bdf9-2cf3070f5144",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "here I am",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "39bf1bea-b945-445c-b8e7-32850c7968b7",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

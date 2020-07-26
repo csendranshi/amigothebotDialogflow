@@ -1,0 +1,142 @@
+{
+  "id": "94e9d0a4-cad1-42e7-82cd-c548ed83270c",
+  "name": "smalltalk.user.testing_agent",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "smalltalk.user.testing_agent",
+      "affectedContexts": [],
+      "parameters": [],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "Hope I'm doing well. You're welcome to test me as often as you want.",
+            "I hope to pass your tests. Feel free to test me often.",
+            "When you test me that helps my developers improve my performance.",
+            "I like being tested. It helps keep me sharp."
+          ]
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "I am testing you",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "bef7b004-9220-4313-a655-465375325f3b",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "test",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        }
+      ],
+      "count": 0,
+      "id": "49d70102-cc9f-4b81-b7d5-b4f3adbfe5b4",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "just testing you",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "c46c8652-9e80-48a3-84ef-f2f573f36bd4",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "testing",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "95ec9e3c-9afd-4949-acca-b4fc66d8b508",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "testing chatbot",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "65568d9c-b0f9-4bfe-bb75-c6d69ed11740",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "I want to test you",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "34c5a5a0-c258-470d-bb6d-3a0a16c535cd",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "let me test you",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "71e56c7a-9bcc-430a-9f7b-bb84b8ce0778",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "can I test you",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "09a0a1cf-fff7-4b46-ac69-79b60621e4be",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

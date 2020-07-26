@@ -1,0 +1,167 @@
+{
+  "id": "55dbf812-ebf8-49fd-9312-b93cd87883a3",
+  "name": "smalltalk.user.sad",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "smalltalk.user.sad",
+      "affectedContexts": [],
+      "parameters": [],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "Oh, don't be sad. Go do something you enjoy.",
+            "Sad? Writing down what's troubling you may help.",
+            "If you're feeling down, how about drawing or painting something?"
+          ]
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "I'm not happy",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "267b203d-9869-4496-adca-542cc0c74aca",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "I'm having a bad day",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "153cb741-53fa-4fb5-9795-0d9037e6b1ea",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "I am feeling sad",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "ab23fa8f-6801-4134-86b8-59106e043326",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "I am upset",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "bab579d7-475e-47de-ad8c-78c9cd52ad43",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "I",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " want ",
+          "userDefined": false
+        },
+        {
+          "text": "to",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " cry",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "227c485d-c086-4ece-96e2-42235091f072",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "I am depressed",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "04ba9473-d7c4-4380-8f44-8eb74f7e24b4",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "I'm unhappy",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "6e0ebacc-9575-4f75-b0b4-663ee7571699",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "I'm grieving",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "6bb66318-930e-4a2a-b821-1119e36a6f29",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "I am sad",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "428fa717-e17a-4e69-8961-b04db7358d17",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}
